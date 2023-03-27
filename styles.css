@@ -139,8 +139,8 @@
 
 
 body {
-  /*background-image: url('landbg3.png');*/
-  background-color: #241a4b;
+  background-image: url('landbg3.png');
+  /*background-color: #241a4b;*/
   background-repeat: repeat;
   background-position: center;
   background-attachment: fixed;
