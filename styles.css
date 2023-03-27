@@ -397,7 +397,7 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-  .menu-icon {
+  .hamburger-menu {
     display: block;
   }
 
@@ -405,6 +405,13 @@ p {
     display: none;
     flex-direction: column;
     width: 100%;
+    background-color: rgba(28, 26, 36, 0.9);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   }
 
   .nav-container.active {
@@ -413,6 +420,29 @@ p {
 
   .dropdown {
     width: 100%;
+    text-align: left;
+    margin: 0;
+  }
+
+  .dropdown:last-child {
+    margin-bottom: 10px;
+  }
+
+  .dropbtn {
+    width: 100%;
+    text-align: left;
+    padding-left: 15px;
+  }
+
+  .dropdown-content {
+    position: static;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0;
+  }
+
+  .dropdown-content a {
+    padding: 10px 20px;
   }
 }
 
@@ -520,19 +550,13 @@ p {
   transform: translateY(-2px);
 }
 
-.menu-icon {
+.hamburger-menu {
   display: none;
   cursor: pointer;
   font-size: 24px;
   color: white;
   align-self: center;
 }
-
-.nav-container {
-  flex-wrap: wrap;
-}
-
-
 
 .audio-controls {
   position: fixed;
