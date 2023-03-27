@@ -362,13 +362,13 @@ p {
   }
 
   .dropbtn {
-    font-size: 14px;
-    padding: 8px 8px;
+    font-size: 12px;
+    padding: 6px 6px;
   }
 
   .dropdown-content a {
-    font-size: 12px;
-    padding: 6px 10px;
+    font-size: 10px;
+    padding: 4px 8px;
   }
 }
 
@@ -386,16 +386,18 @@ p {
   }
 
   .dropbtn {
-    font-size: 12px;
-    padding: 6px 6px;
+    font-size: 8px;
+    padding: 2px 2px;
   }
 
   .dropdown-content a {
-    font-size: 10px;
-    padding: 4px 8px;
+    font-size: 6px;
+    padding: 2px 4px;
   }
 }
 
+
+/*
 @media screen and (max-width: 768px) {
   .hamburger-menu {
     display: block;
@@ -446,7 +448,7 @@ p {
   }
 }
 
-
+*/
 
 .navbar {
   position: fixed;
