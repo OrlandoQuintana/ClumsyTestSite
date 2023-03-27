@@ -1,0 +1,565 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+@font-face {
+  font-family: 'ClumsyPixel';
+  src: url('ClumsyPixelv2.otf') format('opentype');
+}
+
+
+.sign-in-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #7850FF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.sign-in-text {
+  font-family: 'ClumsyPixel';
+  font-size: 48px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.sign-in-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sign-in-input {
+  border: none;
+  border-bottom: 2px solid #241a4b;
+  background-color: transparent;
+  margin-bottom: 15px;
+  color: #FFFFFF;
+  font-size: 18px;
+  outline: none;
+}
+
+.sign-in-button {
+  background-image: linear-gradient(to right, #7850FF, #241a4b);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(120, 80, 255, 0.5);
+  color: white;
+  font-size: 20px;
+  font-family: 'ClumsyPixel';
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.sign-in-button:hover {
+  box-shadow: 0 0 20px rgba(120, 80, 255, 0.8);
+  transform: translateY(-2px);
+}
+
+::placeholder {
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 500;
+}
+
+:-ms-input-placeholder {
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 500;
+}
+
+::-ms-input-placeholder {
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 500;
+}
+
+
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #7850FF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  opacity: 0;
+  display: none;
+}
+
+
+.loading-text {
+  font-family: 'ClumsyPixel';
+  font-size: 48px;
+  color: #241a4b;
+  margin-bottom: 10px;
+}
+
+.loading-bar-container {
+  width: 60%;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.loading-bar {
+  width: 0;
+  height: 100%;
+  background-color: #241a4b;
+  animation: loading-bar-animation 2s linear infinite;
+}
+
+@keyframes loading-bar-animation {
+  0% {
+    width: 0;
+  }
+
+  50% {
+    width: 100%;
+  }
+
+  100% {
+    width: 0;
+  }
+}
+
+
+body {
+  background-image: url('landbg3.png');
+  background-repeat: repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: center center;
+  color: white;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.nav-container {
+  text-align: center;
+  padding: 10px;
+}
+
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  padding-top: 70px;
+}
+
+.title {
+  font-family: 'ClumsyPixel';
+  font-size: 144px;
+  color: #fff;
+  text-shadow: 0 0 5px #7850FF, 0 0 10px #7850FF, 0 0 20px #7850FF, 0 0 30px #7850FF, 0 0 40px #7850FF;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.title:hover {
+  text-shadow: 0 0 10px #7850FF, 0 0 20px #7850FF, 0 0 30px #7850FF, 0 0 40px #7850FF, 0 0 50px #7850FF, 0 0 60px #7850FF;
+  transform: translateY(-5px);
+}
+
+.title::before {
+  content: attr(data-text);
+  position: absolute;
+  color: #A371FF;
+  text-shadow: none;
+  z-index: -1;
+  transform: translate(2px, 2px);
+  transition: all 0.3s ease;
+}
+
+.title:hover::before {
+  transform: translate(5px, 5px);
+}
+
+@keyframes glow {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 85%;
+  height: 500px;
+  border: solid 10px #7850FF;
+  border-radius: 20px;
+  background-color: rgba(28, 26, 36, 0.95);
+  margin-bottom: 130px;
+  margin-top: 20px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(120, 80, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.row-container:hover {
+  box-shadow: 0 0 40px rgba(120, 80, 255, 0.9);
+  transform: translateY(-10px);
+}
+
+.svg-container-left,
+.svg-container-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'ClumsyPixel';
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+  padding: 20px 50px;
+  padding-top: 10px;
+}
+
+.text-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'ClumsyPixel';
+  font-size: 16px;
+  text-align: justify;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+svg {
+  width: 90%;
+  height: auto;
+}
+
+.overview-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'ClumsyPixel';
+  font-size: 16px;
+  width: 100%;
+  padding: 50px;
+}
+
+h2 {
+  font-size: 72px;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+p {
+  font-size: 16px;
+  text-align: justify;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 500;
+  margin-top: 0px;
+}
+
+/* Media queries for different screen sizes */
+@media screen and (max-width: 1200px) {
+  h2 {
+    font-size: 60px;
+  }
+
+  .title {
+    font-size: 120px;
+  }
+
+  .dropbtn {
+    font-size: 18px;
+    padding: 12px 12px;
+  }
+
+  .dropdown-content a {
+    font-size: 16px;
+    padding: 10px 14px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .row-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .svg-container-left,
+  .svg-container-right {
+    padding: 20px 20px;
+  }
+
+  .text-container {
+    padding: 50px;
+  }
+
+  h2 {
+    font-size: 48px;
+  }
+
+  .title {
+    font-size: 96px;
+  }
+
+  .title {
+    font-size: 72px;
+  }
+
+  .dropbtn {
+    font-size: 16px;
+    padding: 10px 10px;
+  }
+
+  .dropdown-content a {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .title {
+    font-size: 72px;
+  }
+
+  .dropbtn {
+    font-size: 14px;
+    padding: 8px 8px;
+  }
+
+  .dropdown-content a {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .title {
+    font-size: 48px;
+  }
+
+  .dropbtn {
+    font-size: 12px;
+    padding: 6px 6px;
+  }
+
+  .dropdown-content a {
+    font-size: 10px;
+    padding: 4px 8px;
+  }
+}
+
+
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(28, 26, 36, 0.9);
+  padding: 10px 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.navbar:hover {
+  background-color: rgba(28, 26, 36, 1);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+}
+
+.dropdown {
+  display: inline-block;
+  flex: 1;
+  position: relative;
+  text-align: center;
+  margin-right: 10px;
+  /* Add spacing between each button */
+}
+
+.dropdown:last-child {
+  margin-right: 5;
+}
+
+
+.dropbtn {
+  background-image: linear-gradient(to right, #7850FF, #A371FF);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(120, 80, 255, 0.5);
+  color: white;
+  font-size: 20px;
+  font-family: 'ClumsyPixel';
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 5px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #241a4b;
+  min-width: 100%;
+  box-shadow: 0 0 10px rgba(120, 80, 255, 0.3);
+  z-index: 1;
+  border-radius: 20px 20px 20px 20px;
+  padding: 10px 8px;
+  top: 100%;
+  left: 0;
+}
+
+.dropdown-content a {
+  color: white;
+  font-size: 18px;
+  font-family: 'ClumsyPixel';
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  transition: all 0.3s ease;
+  background-image: linear-gradient(to right, #7850FF, #A371FF);
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  border-radius: 10px;
+}
+
+.dropdown-content a:hover {
+  background-size: 100% 100%;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  box-shadow: 0 0 20px rgba(120, 80, 255, 0.8);
+  transform: translateY(-2px);
+}
+
+
+.audio-controls {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.audio-btn {
+  background-color: #7850FF;
+  color: white;
+  font-size: 16px;
+  /* Change the font size */
+  font-family: ClumsyPixel;
+  border: none;
+  border-radius: 30%;
+  width: 60px;
+  /* Increase the button width */
+  height: 50px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  /* Add flex display */
+  justify-content: center;
+  /* Center the text horizontally */
+  align-items: center;
+  /* Center the text vertically */
+}
+
+.audio-btn-play {
+  background-color: #7850FF;
+  color: white;
+  font-size: 18px;
+  /* Change the font size */
+  font-family: ClumsyPixel;
+  border: none;
+  border-radius: 30%;
+  width: 75px;
+  /* Increase the button width */
+  height: 65px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  /* Add flex display */
+  justify-content: center;
+  /* Center the text horizontally */
+  align-items: center;
+  /* Center the text vertically */
+}
+
+
+.audio-btn:hover {
+  background-color: #A371FF;
+}
+
+.audio-symbol {
+  color: white;
+}
