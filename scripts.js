@@ -97,3 +97,7 @@ document.querySelector("#next").addEventListener("click", function () {
 
 
 
+function toggleMenu() {
+    var navContainer = document.querySelector('.nav-container');
+    navContainer.classList.toggle('active');
+}

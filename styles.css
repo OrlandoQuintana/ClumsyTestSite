@@ -396,6 +396,25 @@ p {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-container {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-container.active {
+    display: flex;
+  }
+
+  .dropdown {
+    width: 100%;
+  }
+}
 
 
 
@@ -500,6 +519,19 @@ p {
   box-shadow: 0 0 20px rgba(120, 80, 255, 0.8);
   transform: translateY(-2px);
 }
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: white;
+  align-self: center;
+}
+
+.nav-container {
+  flex-wrap: wrap;
+}
+
 
 
 .audio-controls {
