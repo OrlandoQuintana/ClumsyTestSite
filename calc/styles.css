@@ -1,0 +1,125 @@
+:root {
+    --background-color: #1C1A24;
+    --text-color: #f4f4f4;
+    --border-color: #7850FF;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+@font-face {
+    font-family: 'ClumsyPixel';
+    src: url('ClumsyPixelv2.otf') format('opentype');
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: ClumsyPixel;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    font-size: 18px;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    background-color: var(--text-color);
+    color: var(--background-color);
+}
+
+button {
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    padding: 10px 20px;
+    background-color: #7850FF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #7850FF;
+}
+
+#stats-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#ghost-container {
+    width: 33.33%;
+    text-align: center;
+    border-left: 2px solid var(--border-color);
+    border-right: 2px solid var(--border-color);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.stats-column {
+    font-size: 18px;
+    width: 33.33%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.stats-column p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.stats-column p:last-child {
+    margin-bottom: 0;
+}
+
+.stats-column p span {
+    font-weight: normal;
+    text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+    #stats-container {
+        flex-direction: column;
+    }
+
+    .stats-column,
+    #ghost-container {
+        width: 100%;
+    }
+
+    #ghost-container {
+        border-left: none;
+        border-right: none;
+        border-top: 2px solid var(--border-color);
+        border-bottom: 2px solid var(--border-color);
+    }
+}
+
+#ghost-container svg {
+    user-select: none;
+}
