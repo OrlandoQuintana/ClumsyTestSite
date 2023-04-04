@@ -122,13 +122,15 @@ button:hover {
     #ghost-container {
         border-left: none;
         border-right: none;
-        border-top: 2px solid var(--border-color);
-        border-bottom: 2px solid var(--border-color);
+        border-top: 0px solid var(--border-color);
+        border-bottom: 0px solid var(--border-color);
         order: 1;
     }
 
     #stats-left {
         order: 2;
+        border-top: 2px solid var(--border-color);
+        border-bottom: 2px solid var(--border-color);
     }
 
     #stats-right {
