@@ -64,6 +64,10 @@ button:hover {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 20px;
+    border-left: 2px solid var(--border-color);
+    border-right: 2px solid var(--border-color);
+    border-top: 2px solid var(--border-color);
+    border-bottom: 2px solid var(--border-color);
 }
 
 #ghost-container {
@@ -71,6 +75,8 @@ button:hover {
     text-align: center;
     border-left: 2px solid var(--border-color);
     border-right: 2px solid var(--border-color);
+    border-top: 2px solid var(--border-color);
+    border-bottom: 2px solid var(--border-color);
     padding: 20px;
     box-sizing: border-box;
 }
