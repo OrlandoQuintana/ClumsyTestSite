@@ -124,6 +124,15 @@ button:hover {
         border-right: none;
         border-top: 2px solid var(--border-color);
         border-bottom: 2px solid var(--border-color);
+        order: 1;
+    }
+
+    #stats-left {
+        order: 2;
+    }
+
+    #stats-right {
+        order: 3;
     }
 }
 
