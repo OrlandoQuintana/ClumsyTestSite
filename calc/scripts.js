@@ -13,7 +13,6 @@ async function fetchSVG(ghostID) {
     return obj;
 }
 
-
 function displayGhost(ghost, svg) {
     const ghostContainer = document.getElementById('ghost-container');
     const statsLeft = document.getElementById('stats-left');
@@ -54,3 +53,13 @@ async function onSearchButtonClick() {
         alert('Please enter a valid ghost number (1-10000).');
     }
 }
+
+async function loadRandomGhost() {
+    const randomGhostNumber = Math.floor(Math.random() * 10000) + 1;
+    const ghostStats = await fetchGhostStats();
+    const ghost = ghostStats[randomGhostNumber - 1];
+    const svgText = await fetchSVG(ghost['Ghost ID']);
+    displayGhost(ghost, svgText);
+}
+
+loadRandomGhost();
