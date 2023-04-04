@@ -6,12 +6,15 @@ async function fetchGhostStats() {
 
 async function fetchSVG(ghostID) {
     const url = `ghostsvgs/cg${ghostID}.svg`;
-    const obj = document.createElement('object');
-    obj.data = url;
-    obj.type = "image/svg+xml";
-    obj.classList.add('ghost-svg');
-    return obj;
+    const iframe = document.createElement('iframe');
+    iframe.src = url;
+    iframe.classList.add('ghost-svg');
+    iframe.style.border = 'none';
+    iframe.style.width = '100%';
+    iframe.style.height = '100%';
+    return iframe;
 }
+
 
 function displayGhost(ghost, svg) {
     const ghostContainer = document.getElementById('ghost-container');
