@@ -5,13 +5,13 @@ async function fetchGhostStats() {
 }
 
 async function fetchSVG(ghostID) {
-    const url = `ghostsvgs/cg${ghostID}.svg`;
-    const obj = document.createElement('object');
-    obj.data = url;
-    obj.type = "image/svg+xml";
-    obj.classList.add('ghost-svg');
-    return obj;
+    const response = await fetch(`ghostsvgs/cg${ghostID}.svg`);
+    const data = await response.text();
+    const parser = new DOMParser();
+    const svgDoc = parser.parseFromString(data, 'image/svg+xml');
+    return svgDoc.documentElement;
 }
+
 
 function displayGhost(ghost, svg) {
     const ghostContainer = document.getElementById('ghost-container');
