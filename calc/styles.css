@@ -68,6 +68,8 @@ button:hover {
     border-right: 2px solid var(--border-color);
     border-top: 2px solid var(--border-color);
     border-bottom: 2px solid var(--border-color);
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 #ghost-container {
