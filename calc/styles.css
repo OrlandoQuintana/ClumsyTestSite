@@ -116,6 +116,7 @@ button:hover {
     .stats-column,
     #ghost-container {
         width: 100%;
+        font-size: 14px;
     }
 
     #ghost-container {
