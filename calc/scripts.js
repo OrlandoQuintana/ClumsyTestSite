@@ -7,7 +7,6 @@ async function fetchGhostStats() {
 async function fetchSingleGhost(ghostID) {
     const response = await fetch(`https://protected-everglades-83276.herokuapp.com/api/ghosts/${ghostID}`);
     const data = await response.json();
-    console.log(data);
     return data;
 }
 
