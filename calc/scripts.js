@@ -27,10 +27,10 @@ function displayGhost(ghost, svg) {
     let statsRightHTML = '';
 
     for (const key in ghost) {
-        if (key !== 'Ghost ID' && key !== 'Rank Modifier') {
+        if (key !== 'id' && key !== 'rank_modifier') {
             const statValue = ghost[key];
 
-            if (key === 'Ghost Name' || key === 'Rarity Rank' || key === 'Speed' || key === 'Stamina' || key === 'Smarts' || key === 'Luck' || key === 'Farming Length') {
+            if (key === 'name' || key === 'rarity_rank' || key === 'speed' || key === 'stamina' || key === 'smarts' || key === 'luck' || key === 'farming_length') {
                 statsLeftHTML += `<p><strong>${key}:</strong><span>${statValue}</span></p>`;
             } else {
                 statsRightHTML += `<p><strong>${key}:</strong><span>${statValue}</span></p>`;
