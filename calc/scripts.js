@@ -5,8 +5,8 @@ async function fetchGhostStats() {
 }
 
 
-async function fetchSVG(id) {
-    const url = `ghostsvgs/cg${id}.svg`;
+async function fetchSVG(ghostID) {
+    const url = `ghostsvgs/cg${ghostID}.svg`;
     const obj = document.createElement('object');
     obj.data = url;
     obj.type = "image/svg+xml";
@@ -48,7 +48,7 @@ async function onSearchButtonClick() {
     if (ghostNumber >= 1 && ghostNumber <= 10000) {
         const ghostStats = await fetchGhostStats();
         const ghost = ghostStats[ghostNumber - 1];
-        const svgText = await fetchSVG(ghost['Ghost ID']);
+        const svgText = await fetchSVG(ghost['id']);
         displayGhost(ghost, svgText);
     } else {
         alert('Please enter a valid ghost number (1-10000).');
@@ -59,7 +59,7 @@ async function loadRandomGhost() {
     const randomGhostNumber = Math.floor(Math.random() * 10000) + 1;
     const ghostStats = await fetchGhostStats();
     const ghost = ghostStats[randomGhostNumber - 1];
-    const svgText = await fetchSVG(ghost['Ghost ID']);
+    const svgText = await fetchSVG(ghost['id']);
     displayGhost(ghost, svgText);
 }
 
