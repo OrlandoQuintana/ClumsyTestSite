@@ -1,8 +1,9 @@
 async function fetchGhostStats() {
-    const response = await fetch('ghoststats.json');
+    const response = await fetch('https://protected-everglades-83276.herokuapp.com/api/ghosts');
     const data = await response.json();
     return data;
 }
+
 
 async function fetchSVG(ghostID) {
     const url = `ghostsvgs/cg${ghostID}.svg`;
