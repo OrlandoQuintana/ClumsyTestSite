@@ -5,6 +5,7 @@ async function fetchGhostStats() {
 }
 
 
+
 async function fetchSVG(ghostID) {
     const url = `ghostsvgs/cg${ghostID}.svg`;
     const obj = document.createElement('object');
