@@ -4,6 +4,12 @@ async function fetchGhostStats() {
     return data;
 }
 
+async function fetchSingleGhost(ghostID) {
+    const response = await fetch(`https://protected-everglades-83276.herokuapp.com/api/ghosts/${ghostID}`);
+    const data = await response.json();
+    console.log(data);
+    return data;
+}
 
 async function fetchSVG(ghostID) {
     const url = `ghostsvgs/cg${ghostID}.svg`;
@@ -46,8 +52,7 @@ async function onSearchButtonClick() {
     const ghostNumber = searchInput.value;
 
     if (ghostNumber >= 1 && ghostNumber <= 10000) {
-        const ghostStats = await fetchGhostStats();
-        const ghost = ghostStats[ghostNumber - 1];
+        const ghost = await fetchSingleGhost(ghostNumber);
         const svgText = await fetchSVG(ghost['id']);
         displayGhost(ghost, svgText);
     } else {
@@ -57,10 +62,10 @@ async function onSearchButtonClick() {
 
 async function loadRandomGhost() {
     const randomGhostNumber = Math.floor(Math.random() * 10000) + 1;
-    const ghostStats = await fetchGhostStats();
-    const ghost = ghostStats[randomGhostNumber - 1];
+    const ghost = await fetchSingleGhost(randomGhostNumber);
     const svgText = await fetchSVG(ghost['id']);
     displayGhost(ghost, svgText);
 }
+
 
 loadRandomGhost();
