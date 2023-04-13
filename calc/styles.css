@@ -97,7 +97,6 @@ button:hover {
     text-align: left;
     vertical-align: middle;
     border-bottom: 1px solid var(--border-color);
-    border-top: 1px solid var(--border-color);
     padding-bottom: 8px;
     margin-bottom: 8px;
     padding-top: 8px;
