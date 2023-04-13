@@ -94,17 +94,17 @@ function displayGhost(ghost, svg) {
 
 function openSVG() {
     const ghostNumber = document.getElementById("search-input").value;
-    window.open(`/calc/ghostsvgs/cg${ghostNumber}.svg`, '_blank');
+    window.open(`/calc/ghostsvgs/cg${id}.svg`, '_blank');
 }
 
 function openSquarePNG() {
     const ghostNumber = document.getElementById("search-input").value;
-    window.open(`/images/png/cg${ghostNumber}-512.png`, '_blank');
+    window.open(`/images/png/cg${id}-512.png`, '_blank');
 }
 
 function openWidePNG() {
     const ghostNumber = document.getElementById("search-input").value;
-    window.open(`/images/png/cg${ghostNumber}-wide.png`, '_blank');
+    window.open(`/images/png/cg${id}-wide.png`, '_blank');
 }
 
 
