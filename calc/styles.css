@@ -100,6 +100,7 @@ button:hover {
     border-top: 1px solid var(--border-color);
     padding-bottom: 8px;
     margin-bottom: 8px;
+    padding-top: 8px;
     margin-top: 8px;
     /* Add this line */
 }
@@ -113,9 +114,7 @@ button:hover {
     text-align: right;
     align-self: center;
     vertical-align: middle;
-    padding-bottom: 8px;
-    margin-bottom: 8px;
-    margin-top: 8px;
+    justify-content: space-between;
 }
 
 .stats-column img {
@@ -127,9 +126,7 @@ button:hover {
     /* Adjust the margin-right if needed */
     align-self: center;
     vertical-align: middle;
-    padding-bottom: 8px;
-    margin-bottom: 8px;
-    margin-top: 8px;
+    justify-content: space-between;
 }
 
 
