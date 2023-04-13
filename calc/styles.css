@@ -139,9 +139,7 @@ button:hover {
     background-color: var(--border-color);
 }
 
-.stats-column p:last-child::after {
-    display: none;
-}
+
 
 
 @media screen and (max-width: 768px) {
