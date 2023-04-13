@@ -63,7 +63,7 @@ button:hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 10px;
     border-left: 2px solid var(--border-color);
     border-right: 2px solid var(--border-color);
     border-top: 2px solid var(--border-color);
