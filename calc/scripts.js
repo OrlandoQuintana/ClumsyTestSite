@@ -81,7 +81,7 @@ function displayGhost(ghost, svg) {
 
             const keyImage = keyImages[key];
             const imgHTML = keyImage ? `<img src="calc/keyImages/${keyImage}" alt="${key}">` : '';
-            const prettyKey = prettyKeys[key] || key;
+            const prettyKey = prettifyKey[key] || key;
 
             if (key === 'name' || key === 'rarity_rank' || key === 'speed' || key === 'stamina' || key === 'smarts' || key === 'luck' || key === 'farming_length') {
                 statsLeftHTML += `<p><strong>${imgHTML}${prettyKey}:</strong><span>${statValue}</span></p>`;
