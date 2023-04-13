@@ -98,10 +98,10 @@ button:hover {
     align-items: center;
     text-align: left;
     vertical-align: middle;
-    padding-bottom: 8px;
-    margin-bottom: 8px;
-    padding-top: 8px;
-    margin-top: 8px;
+    padding-bottom: 6px;
+    margin-bottom: 6px;
+    padding-top: 6px;
+    margin-top: 6px;
 }
 
 .stats-column p:last-child {
@@ -133,7 +133,7 @@ button:hover {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: -4px;
+    bottom: -6px;
     /* Adjust this value to move the line up or down */
     height: 1px;
     background-color: var(--border-color);
