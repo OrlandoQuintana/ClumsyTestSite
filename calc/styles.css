@@ -111,6 +111,7 @@ button:hover {
 .stats-column p span {
     font-weight: normal;
     text-align: right;
+    align-self: center;
 }
 
 .stats-column img {
@@ -120,6 +121,7 @@ button:hover {
     /* Adjust the height */
     margin-right: 10px;
     /* Adjust the margin-right if needed */
+    align-self: center;
 }
 
 
