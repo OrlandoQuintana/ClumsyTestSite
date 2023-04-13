@@ -22,7 +22,7 @@ body {
 main {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -30,7 +30,6 @@ h1 {
     font-family: ClumsyPixel;
     font-size: 48px;
     margin-bottom: 20px;
-    margin-top: 20px;
 }
 
 input[type="number"] {
@@ -98,6 +97,7 @@ button:hover {
     text-align: left;
     vertical-align: middle;
     border-bottom: 1px solid var(--border-color);
+    border-top: 1px solid var(--border-color);
     padding-bottom: 8px;
     margin-bottom: 8px;
     margin-top: 8px;
