@@ -26,12 +26,14 @@
         <div id="stats-container">
             <div id="stats-left" class="stats-column"></div>
             <div id="ghost-container">
-                <!-- The SVG will be placed here by the JavaScript code -->
-                <div class="download-buttons">
-                    <button onclick="dummyFunction()">HTML</button>
-                    <button onclick="openSVG()">SVG</button>
-                    <button onclick="openSquarePNG()">Square PNG</button>
-                    <button onclick="openWidePNG()">Wide PNG</button>
+                <div id="ghost-svg-container">
+                    <!-- The SVG will be inserted here by the JavaScript -->
+                </div>
+                <div id="button-container">
+                    <button id="html-button">HTML</button>
+                    <button id="svg-button" onclick="openSVG()">SVG</button>
+                    <button id="square-png-button" onclick="openSquarePNG()">Square PNG</button>
+                    <button id="wide-png-button" onclick="openWidePNG()">Wide PNG</button>
                 </div>
             </div>
 
