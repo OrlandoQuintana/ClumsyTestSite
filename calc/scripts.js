@@ -19,6 +19,31 @@ async function fetchSVG(ghostID) {
     return obj;
 }
 
+function prettifyKey(key) {
+    const keyMap = {
+        'name': 'Name',
+        'rarity_rank': 'Rarity Rank',
+        'stamina': 'Stamina',
+        'smarts': 'Smarts',
+        'luck': 'Luck',
+        'speed': 'Speed',
+        'farming_length': 'FC Length',
+        'meadows_modifier': 'Meadows',
+        'dunes_modifier': 'Dunes',
+        'tundra_modifier': 'Tundra',
+        'deadlands_modifier': 'Deadlands',
+        'toxic_swamps_modifier': 'Toxic Swamps',
+        'scorched_earth_modifier': 'Scorched Earth',
+        'twilight_forest_modifier': 'Twilight Forest',
+        'cyber_district_modifier': 'Cyber District',
+        'alien_modifier': 'Alien'
+        // Add more mappings here as needed
+    };
+
+    return keyMap[key] || key;
+}
+
+
 function displayGhost(ghost, svg) {
     const ghostContainer = document.getElementById('ghost-container');
     const statsLeft = document.getElementById('stats-left');
@@ -33,11 +58,12 @@ function displayGhost(ghost, svg) {
     for (const key in ghost) {
         if (key !== 'id' && key !== 'rank_modifier') {
             const statValue = ghost[key];
+            const prettyKey = prettifyKey(key);
 
             if (key === 'name' || key === 'rarity_rank' || key === 'speed' || key === 'stamina' || key === 'smarts' || key === 'luck' || key === 'farming_length') {
-                statsLeftHTML += `<p><strong>${key}:</strong><span>${statValue}</span></p>`;
+                statsLeftHTML += `<p><strong>${prettyKey}:</strong><span>${statValue}</span></p>`;
             } else {
-                statsRightHTML += `<p><strong>${key}:</strong><span>${statValue}</span></p>`;
+                statsRightHTML += `<p><strong>${prettyKey}:</strong><span>${statValue}</span></p>`;
             }
         }
     }
@@ -45,6 +71,7 @@ function displayGhost(ghost, svg) {
     statsLeft.innerHTML = statsLeftHTML;
     statsRight.innerHTML = statsRightHTML;
 }
+
 
 async function onSearchButtonClick() {
     const searchInput = document.getElementById('search-input');
