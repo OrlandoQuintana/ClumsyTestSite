@@ -109,9 +109,9 @@ button:hover {
 }
 
 .stats-column img {
-    width: 20px;
+    width: 40px;
     /* adjust this value to control the image size */
-    height: 20px;
+    height: 40px;
     margin-right: 5px;
     /* add some space between the key and the image */
 }
