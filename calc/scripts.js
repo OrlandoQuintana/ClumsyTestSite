@@ -79,7 +79,7 @@ function displayGhost(ghost, svg) {
             const imgHtml = keyImage ? `<img src="calc/keyImages/${keyImage}" alt="${key}">` : '';
 
             if (key === 'name' || key === 'rarity_rank' || key === 'speed' || key === 'stamina' || key === 'smarts' || key === 'luck' || key === 'farming_length') {
-                statsLeftHTML += `<p><strong>${imgHtml}:</strong>${key}<span>${statValue}</span></p>`;
+                statsLeftHTML += `<p><strong>${imgHTML}:</strong>${key}<span>${statValue}</span></p>`;
             } else {
                 statsRightHTML += `<p><strong>${imgHTML}:</strong>${key}<span>${statValue}</span></p>`;
             }
