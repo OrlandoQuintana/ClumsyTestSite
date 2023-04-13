@@ -82,7 +82,7 @@ button:hover {
 }
 
 .stats-column {
-    font-size: 18px;
+    font-size: 22px;
     width: 33.33%;
     padding: 20px;
     box-sizing: border-box;
@@ -97,9 +97,9 @@ button:hover {
     text-align: left;
     vertical-align: middle;
     border-bottom: 1px solid var(--border-color);
-    padding-bottom: 5px;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    margin-top: 8px;
     /* Add this line */
 }
 
@@ -113,9 +113,9 @@ button:hover {
 }
 
 .stats-column img {
-    width: 24px;
+    width: 28px;
     /* Adjust the width */
-    height: 24px;
+    height: 28px;
     /* Adjust the height */
     margin-right: 10px;
     /* Adjust the margin-right if needed */
