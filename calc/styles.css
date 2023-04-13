@@ -175,3 +175,27 @@ button:hover {
 #ghost-container svg {
     user-select: none;
 }
+
+#button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.ghost-button {
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    padding: 10px 20px;
+    background-color: #7850FF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.ghost-button:hover {
+    background-color: #7850FF;
+}

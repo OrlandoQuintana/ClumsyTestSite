@@ -25,7 +25,15 @@
         <button id="search-button" onclick="onSearchButtonClick()">Search</button>
         <div id="stats-container">
             <div id="stats-left" class="stats-column"></div>
-            <div id="ghost-container"></div>
+            <div id="ghost-container">
+                <!-- Add your ghost SVG here -->
+                <div id="button-container">
+                    <button id="html-button" class="ghost-button">HTML</button>
+                    <button id="svg-button" class="ghost-button" onclick="openSVG()">SVG</button>
+                    <button id="square-png-button" class="ghost-button" onclick="openSquarePNG()">Square PNG</button>
+                    <button id="wide-png-button" class="ghost-button" onclick="openWidePNG()">Wide PNG</button>
+                </div>
+            </div>
             <div id="stats-right" class="stats-column"></div>
         </div>
     </main>

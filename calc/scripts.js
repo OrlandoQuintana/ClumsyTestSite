@@ -92,6 +92,21 @@ function displayGhost(ghost, svg) {
     statsRight.innerHTML = statsRightHTML;
 }
 
+function openSVG() {
+    const ghostNumber = document.getElementById("search-input").value;
+    window.open(`/ClumsyTestSite/calc/ghostsvgs/cg${ghostNumber}.svg`, '_blank');
+}
+
+function openSquarePNG() {
+    const ghostNumber = document.getElementById("search-input").value;
+    window.open(`/ClumsyTestSite/images/png/cg${ghostNumber}-512.png`, '_blank');
+}
+
+function openWidePNG() {
+    const ghostNumber = document.getElementById("search-input").value;
+    window.open(`/ClumsyTestSite/images/png/cg${ghostNumber}-wide.png`, '_blank');
+}
+
 
 
 async function onSearchButtonClick() {
