@@ -90,22 +90,28 @@ function displayGhost(ghost, svg) {
 
     statsLeft.innerHTML = statsLeftHTML;
     statsRight.innerHTML = statsRightHTML;
+
+    loadedGhostID = ghost['id'];
 }
 
 function openSVG() {
-    const ghostNumber = document.getElementById("search-input").value;
-    window.open(`/calc/ghostsvgs/cg${id}.svg`, '_blank');
+    if (loadedGhostID !== null) {
+        window.open(`/calc/ghostsvgs/cg${loadedGhostID}.svg`, '_blank');
+    }
 }
 
 function openSquarePNG() {
-    const ghostNumber = document.getElementById("search-input").value;
-    window.open(`/images/png/cg${id}-512.png`, '_blank');
+    if (loadedGhostID !== null) {
+        window.open(`/images/png/cg${loadedGhostID}-512.png`, '_blank');
+    }
 }
 
 function openWidePNG() {
-    const ghostNumber = document.getElementById("search-input").value;
-    window.open(`/images/png/cg${id}-wide.png`, '_blank');
+    if (loadedGhostID !== null) {
+        window.open(`/images/png/cg${loadedGhostID}-wide.png`, '_blank');
+    }
 }
+
 
 
 
