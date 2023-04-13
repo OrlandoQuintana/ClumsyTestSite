@@ -26,14 +26,15 @@
         <div id="stats-container">
             <div id="stats-left" class="stats-column"></div>
             <div id="ghost-container">
-                <!-- Add your ghost SVG here -->
-                <div id="button-container">
-                    <button id="html-button" class="ghost-button">HTML</button>
-                    <button id="svg-button" class="ghost-button" onclick="openSVG()">SVG</button>
-                    <button id="square-png-button" class="ghost-button" onclick="openSquarePNG()">Square PNG</button>
-                    <button id="wide-png-button" class="ghost-button" onclick="openWidePNG()">Wide PNG</button>
+                <!-- The SVG will be placed here by the JavaScript code -->
+                <div class="download-buttons">
+                    <button onclick="dummyFunction()">HTML</button>
+                    <button onclick="openSVG()">SVG</button>
+                    <button onclick="openSquarePNG()">Square PNG</button>
+                    <button onclick="openWidePNG()">Wide PNG</button>
                 </div>
             </div>
+
             <div id="stats-right" class="stats-column"></div>
         </div>
     </main>
