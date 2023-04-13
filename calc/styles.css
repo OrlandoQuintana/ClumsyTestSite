@@ -107,6 +107,8 @@ button:hover {
 .stats-column p span {
     font-weight: normal;
     text-align: right;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 .stats-column img {
@@ -115,8 +117,7 @@ button:hover {
     height: 30px;
     margin-right: 15px;
     /* add some space between the key and the image */
-    padding-bottom: 5px;
-    margin-bottom: 5px;
+
 }
 
 
