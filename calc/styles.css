@@ -88,6 +88,8 @@ button:hover {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    margin-bottom: 5px;
+}
 }
 
 .stats-column p {
