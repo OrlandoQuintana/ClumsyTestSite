@@ -112,7 +112,7 @@ button:hover {
     font-weight: normal;
     text-align: right;
     align-self: center;
-    display: flex;
+    vertical-align: middle;
 }
 
 .stats-column img {
@@ -123,7 +123,7 @@ button:hover {
     margin-right: 10px;
     /* Adjust the margin-right if needed */
     align-self: center;
-    display: flex;
+    vertical-align: middle;
 }
 
 
