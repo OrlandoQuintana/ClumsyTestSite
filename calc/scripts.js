@@ -27,7 +27,7 @@ function prettifyKey(key) {
         'smarts': 'Smarts',
         'luck': 'Luck',
         'speed': 'Speed',
-        'farming_length': 'FC Length',
+        'farming_length': 'FC',
         'meadows_modifier': 'Meadows',
         'dunes_modifier': 'Dunes',
         'tundra_modifier': 'Tundra',
