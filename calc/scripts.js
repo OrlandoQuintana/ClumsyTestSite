@@ -62,6 +62,8 @@ function prettifyKey(key) {
 
 
 function displayGhost(ghost, svg) {
+    console.log('keyImages:', keyImages, 'prettyKeys:', prettyKeys);
+
     const ghostContainer = document.getElementById('ghost-container');
     const statsLeft = document.getElementById('stats-left');
     const statsRight = document.getElementById('stats-right');
@@ -75,6 +77,8 @@ function displayGhost(ghost, svg) {
     for (const key in ghost) {
         if (key !== 'id' && key !== 'rank_modifier') {
             const statValue = ghost[key];
+            console.log('key:', key, 'statValue:', statValue, 'keyImage:', keyImage, 'prettyKey:', prettyKeys[key]);
+
             const keyImage = keyImages[key];
             const imgHTML = keyImage ? `<img src="calc/keyImages/${keyImage}" alt="${key}">` : '';
             const prettyKey = prettyKeys[key] || key;
