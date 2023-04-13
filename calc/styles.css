@@ -108,6 +108,15 @@ button:hover {
     text-align: right;
 }
 
+.stats-column img {
+    width: 10px;
+    /* adjust this value to control the image size */
+    height: 10px;
+    margin-right: 5px;
+    /* add some space between the key and the image */
+}
+
+
 @media screen and (max-width: 768px) {
     #stats-container {
         flex-direction: column;

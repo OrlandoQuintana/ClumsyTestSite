@@ -19,6 +19,23 @@ async function fetchSVG(ghostID) {
     return obj;
 }
 
+const keyImages = {
+    'meadows_modifier': 'meadows.png',
+    'scorched_earth_modifier': 'scorched-earth.png',
+    'tundra_modifier': 'tundra.png',
+    'twilight_forest_modifier': 'twilight-forest.png',
+    'toxic_swamps_modifier': 'toxic-swamps.png',
+    'dunes_modifier': 'dunes.png',
+    'deadlands_modifier': 'deadlands.png',
+    'cyber_district_modifier': 'cyber-district.png',
+    'alien_modifier': 'alien.png',
+    'speed': 'speed-icon.png',
+    'stamina': 'stamina-icon.png',
+    'smarts': 'smarts-icon.png',
+    'luck': 'luck-icon.png',
+};
+
+
 function prettifyKey(key) {
     const keyMap = {
         'name': 'Name',
@@ -58,15 +75,17 @@ function displayGhost(ghost, svg) {
     for (const key in ghost) {
         if (key !== 'id' && key !== 'rank_modifier') {
             const statValue = ghost[key];
-            const prettyKey = prettifyKey(key);
+            const keyImage = keyImages[key];
+            const imgHtml = keyImage ? `<img src="calc/keyImages/${keyImage}" alt="${key}">` : '';
 
             if (key === 'name' || key === 'rarity_rank' || key === 'speed' || key === 'stamina' || key === 'smarts' || key === 'luck' || key === 'farming_length') {
-                statsLeftHTML += `<p><strong>${prettyKey}:</strong><span>${statValue}</span></p>`;
+                statsLeftHTML += `<p><strong>${imgHtml}:</strong>${key}<span>${statValue}</span></p>`;
             } else {
-                statsRightHTML += `<p><strong>${prettyKey}:</strong><span>${statValue}</span></p>`;
+                statsRightHTML += `<p><strong>${imgHTML}:</strong>${key}<span>${statValue}</span></p>`;
             }
         }
     }
+
 
     statsLeft.innerHTML = statsLeftHTML;
     statsRight.innerHTML = statsRightHTML;
