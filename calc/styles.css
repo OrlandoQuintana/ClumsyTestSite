@@ -181,12 +181,12 @@ button:hover {
 }
 
 #button-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
     margin-top: 20px;
-    z-index: 1;
 }
+
 
 
 #button-container button {
