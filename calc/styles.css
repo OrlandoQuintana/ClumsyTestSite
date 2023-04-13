@@ -92,17 +92,16 @@ button:hover {
 }
 
 .stats-column p {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: left;
     vertical-align: middle;
-    border-bottom: 1px solid var(--border-color);
     padding-bottom: 8px;
     margin-bottom: 8px;
     padding-top: 8px;
     margin-top: 8px;
-    /* Add this line */
 }
 
 .stats-column p:last-child {
@@ -127,6 +126,21 @@ button:hover {
     align-self: center;
     vertical-align: middle;
     justify-content: space-between;
+}
+
+.stats-column p::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -4px;
+    /* Adjust this value to move the line up or down */
+    height: 1px;
+    background-color: var(--border-color);
+}
+
+.stats-column p:last-child::after {
+    display: none;
 }
 
 
