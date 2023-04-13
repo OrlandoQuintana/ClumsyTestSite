@@ -184,7 +184,7 @@ button:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 80px;
+    margin-top: 20px;
     /* Increase the margin-top value */
     z-index: 1;
 }

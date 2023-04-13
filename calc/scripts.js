@@ -63,12 +63,12 @@ const keyImages = {
 
 
 function displayGhost(ghost, svg) {
-    const ghostContainer = document.getElementById('ghost-container');
+    const ghostSvgContainer = document.getElementById('ghost-svg-container');
     const statsLeft = document.getElementById('stats-left');
     const statsRight = document.getElementById('stats-right');
 
-    ghostContainer.innerHTML = '';
-    ghostContainer.appendChild(svg);
+    ghostSvgContainer.innerHTML = '';
+    ghostSvgContainer.appendChild(svg);
 
     let statsLeftHTML = '';
     let statsRightHTML = '';
@@ -130,5 +130,4 @@ async function loadRandomGhost() {
 }
 
 
-/*loadRandomGhost();
-*/
+loadRandomGhost();
