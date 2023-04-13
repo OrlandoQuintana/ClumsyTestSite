@@ -130,4 +130,5 @@ async function loadRandomGhost() {
 }
 
 
-loadRandomGhost();
+/*loadRandomGhost();
+*/
