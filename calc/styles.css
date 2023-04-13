@@ -185,11 +185,14 @@ button:hover {
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 20px;
+    z-index: 1;
 }
+
 
 #button-container button {
     margin-bottom: 10px;
 }
+
 
 
 .ghost-button {
