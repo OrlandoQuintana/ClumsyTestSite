@@ -92,6 +92,7 @@ function displayGhost(ghost, svg) {
     statsRight.innerHTML = statsRightHTML;
 
     loadedGhostID = ghost['id'];
+    displayMetadata(ghost);
 }
 
 async function fetchGhostMetadata(ghostId) {
@@ -110,6 +111,61 @@ async function fetchGhostMetadata(ghostId) {
         alert('An error occurred while fetching the ghost metadata');
     }
 }
+
+function displayMetadata(ghost) {
+    const currentGhostId = ghost['id'];
+    fetch(`https://protected-everglades-83276.herokuapp.com/api/ghost-metadata/${currentGhostId}`)
+        .then((response) => {
+            if (response.ok) {
+                return response.json();
+            } else {
+                throw new Error('Failed to fetch ghost metadata');
+            }
+        })
+        .then((ghostMetadata) => {
+            // ... (the existing code for displaying the metadata)
+            function displayMetadata(ghostMetadata) {
+                const metadataLeft = document.getElementById('metadata-left');
+                const metadataCenter = document.getElementById('metadata-center');
+                const metadataRight = document.getElementById('metadata-right');
+
+                const metadataKeys = [
+                    'backdrop', 'background', 'backpack', 'blastoff', 'body',
+                    'eyes', 'face', 'glasses', 'hands', 'hat',
+                    'hideme', 'outfit', 'special', 'varatts'
+                ];
+
+                let metadataLeftHTML = '';
+                let metadataCenterHTML = '';
+                let metadataRightHTML = '';
+
+                for (const key of metadataKeys) {
+                    const metadataValue = ghostMetadata[key] || 'N/A';
+                    const metadataHTML = `<p><strong>${key}:</strong><span>${metadataValue}</span></p>`;
+
+                    if (metadataKeys.indexOf(key) < 5) {
+                        metadataLeftHTML += metadataHTML;
+                    } else if (metadataKeys.indexOf(key) < 10) {
+                        metadataCenterHTML += metadataHTML;
+                    } else {
+                        metadataRightHTML += metadataHTML;
+                    }
+                }
+
+                metadataLeft.innerHTML = metadataLeftHTML;
+                metadataCenter.innerHTML = metadataCenterHTML;
+                metadataRight.innerHTML = metadataRightHTML;
+            }
+
+
+        })
+        .catch((error) => {
+            console.error('Error:', error);
+            alert('An error occurred while fetching the ghost metadata');
+        });
+}
+
+
 
 async function openHTML() {
     const currentGhostId = loadedGhostID; /* Ghost ID of the currently displayed ghost */

@@ -231,3 +231,82 @@ button:hover {
 #ghost-svg-container {
     width: 100%;
 }
+
+#metadata-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    border: 2px solid var(--border-color);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.metadata-column {
+    font-size: 22px;
+    width: 33.33%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.metadata-column p {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    vertical-align: middle;
+    padding-bottom: 6px;
+    margin-bottom: 6px;
+    padding-top: 6px;
+    margin-top: 6px;
+}
+
+.metadata-column p:last-child {
+    margin-bottom: 0;
+}
+
+.metadata-column p span {
+    font-weight: normal;
+    text-align: right;
+    align-self: center;
+    vertical-align: middle;
+    justify-content: space-between;
+}
+
+.metadata-column p::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -6px;
+    height: 1px;
+    background-color: var(--border-color);
+}
+
+@media screen and (max-width: 768px) {
+    #metadata-container {
+        flex-direction: column;
+    }
+
+    .metadata-column {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    #metadata-left {
+        order: 1;
+        border-bottom: 2px solid var(--border-color);
+    }
+
+    #metadata-center {
+        order: 2;
+        border-bottom: 2px solid var(--border-color);
+    }
+
+    #metadata-right {
+        order: 3;
+    }
+}
