@@ -37,7 +37,8 @@ function prettifyKey(key) {
         'scorched_earth_modifier': 'Scorched Earth',
         'twilight_forest_modifier': 'Twilight Forest',
         'cyber_district_modifier': 'Cyber District',
-        'alien_modifier': 'Alien'
+        'alien_modifier': 'Alien',
+        'backdrop': 'Backdrop'
         // Add more mappings here as needed
     };
 
