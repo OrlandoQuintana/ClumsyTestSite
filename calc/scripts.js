@@ -95,7 +95,6 @@ function displayGhost(ghost, svg) {
     let statsLeftHTML = '';
     let statsRightHTML = '';
 
-    let totalValue = 0;
     for (const key in ghost) {
         if (key !== 'id' && key !== 'rank_modifier') {
             const prettyKey = prettifyKey(key);
@@ -104,18 +103,7 @@ function displayGhost(ghost, svg) {
             const imgHtml = keyImage ? `<img src="/calc/keyImages/${keyImage}">` : '';
 
             if (key === 'name' || key === 'rarity_rank' || key === 'speed' || key === 'stamina' || key === 'smarts' || key === 'luck' || key === 'farming_length') {
-                if (key === 'speed') {
-                    statsLeftHTML += `<p><strong>${imgHtml}${prettyKey}:</strong><span>${statValue}</span></p>`;
-                } else if (key === 'fc') {
-                    statsLeftHTML += `<p><strong>${imgHtml}${prettyKey}:</strong><span>${statValue}</span></p>`;
-                    statsLeftHTML += `<p><strong>${imgHtml}Total:</strong><span>${totalValue}</span></p>`;
-                } else {
-                    totalValue += statValue;
-                    statsLeftHTML += `<p><strong>${imgHtml}${prettyKey}:</strong><span>${statValue}</span></p>`;
-                    if (key === 'luck') {
-                        statsLeftHTML += `<p><strong>${imgHtml}Total:</strong><span>${totalValue}</span></p>`;
-                    }
-                }
+                statsLeftHTML += `<p><strong>${imgHtml}${prettyKey}:</strong><span>${statValue}</span></p>`;
             } else {
                 statsRightHTML += `<p><strong>${imgHtml}${prettyKey}:</strong><span>${statValue}</span></p>`;
             }
@@ -128,7 +116,6 @@ function displayGhost(ghost, svg) {
     loadedGhostID = ghost['id'];
     displayMetadata(ghost);
 }
-
 
 async function fetchGhostMetadata(ghostId) {
     try {
