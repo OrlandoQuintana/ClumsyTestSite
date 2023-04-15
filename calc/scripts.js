@@ -59,7 +59,7 @@ function prettifyMetadataKey(key) {
         'hideme': 'Hideme',
         'outfit': 'Outfit',
         'special': 'Special',
-        'varatts': 'Varatts'
+        'varatts': 'Attributes'
         // Add more mappings here as needed
     };
 
@@ -160,8 +160,8 @@ function displayMetadata(ghost) {
             let metadataRightHTML = '';
 
             for (const key of metadataKeys) {
+                const metadataValue = key === 'varatts' ? (ghostMetadata[key] + 3) : ghostMetadata[key] || 'N/A';
                 const prettyKey = prettifyMetadataKey(key);
-                const metadataValue = ghostMetadata[key] || 'N/A';
                 const metadataHTML = `<p><strong>${prettyKey}:</strong><span>${metadataValue}</span></p>`;
 
                 if (metadataKeys.indexOf(key) < 5) {
@@ -182,6 +182,7 @@ function displayMetadata(ghost) {
             alert('An error occurred while fetching the ghost metadata');
         });
 }
+
 
 
 async function openHTML() {
