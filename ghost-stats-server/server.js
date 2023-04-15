@@ -16,8 +16,10 @@ const db = new sqlite3.Database(':memory:', (err) => {
 });
 
 // Load JSON data into database
-const ghostStats = require('./ghoststats.json');
-const ghostMetadata = require('./ghostmetadata.json');
+const path = require('path');
+const ghostStats = require(path.join(__dirname, 'ghoststats.json'));
+const ghostMetadata = require(path.join(__dirname, 'ghostmetadata.json'));
+
 
 const createGhostsTableQuery = `
 CREATE TABLE IF NOT EXISTS ghosts (
