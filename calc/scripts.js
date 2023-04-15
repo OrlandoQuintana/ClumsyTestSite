@@ -37,8 +37,29 @@ function prettifyKey(key) {
         'scorched_earth_modifier': 'Scorched Earth',
         'twilight_forest_modifier': 'Twilight Forest',
         'cyber_district_modifier': 'Cyber District',
-        'alien_modifier': 'Alien',
-        'backdrop': 'Backdrop'
+        'alien_modifier': 'Alien'
+        // Add more mappings here as needed
+    };
+
+    return keyMap[key] || key;
+}
+
+function prettifyMetadataKey(key) {
+    const keyMap = {
+        'backdrop': 'Backdrop',
+        'background': 'Background',
+        'backpack': 'Backpack',
+        'blastoff': 'Blastoff',
+        'body': 'Body',
+        'eyes': 'Eyes',
+        'face': 'Face',
+        'glasses': 'Glasses',
+        'hands': 'Hands',
+        'hat': 'Hat',
+        'hideme': 'Hideme',
+        'outfit': 'Outfit',
+        'special': 'Special',
+        'varatts': 'Varatts'
         // Add more mappings here as needed
     };
 
@@ -139,8 +160,9 @@ function displayMetadata(ghost) {
             let metadataRightHTML = '';
 
             for (const key of metadataKeys) {
+                const prettyKey = prettifyMetadataKey(key);
                 const metadataValue = ghostMetadata[key] || 'N/A';
-                const metadataHTML = `<p><strong>${key}:</strong><span>${metadataValue}</span></p>`;
+                const metadataHTML = `<p><strong>${prettyKey}:</strong><span>${metadataValue}</span></p>`;
 
                 if (metadataKeys.indexOf(key) < 5) {
                     metadataLeftHTML += metadataHTML;
@@ -160,7 +182,6 @@ function displayMetadata(ghost) {
             alert('An error occurred while fetching the ghost metadata');
         });
 }
-
 
 
 async function openHTML() {
