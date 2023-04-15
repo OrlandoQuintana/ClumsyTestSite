@@ -165,4 +165,3 @@ async function loadRandomGhost() {
 
 
 loadRandomGhost();
-
