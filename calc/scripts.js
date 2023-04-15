@@ -94,32 +94,38 @@ function displayGhost(ghost, svg) {
     loadedGhostID = ghost['id'];
 }
 
-function openHTML() {
-    const currentGhostId = loadedGhostID; /* Ghost ID of the currently displayed ghost */
-    console.log(currentGhostId);
-    fetch(`https://protected-everglades-83276.herokuapp.com/api/ghost-metadata/${currentGhostId}`)
-        .then((response) => {
-            if (response.ok) {
-                return response.json();
-            } else {
-                throw new Error('Failed to fetch ghost metadata');
-            }
-        })
-        .then((ghostMetadata) => {
-            console.log('Ghost metadata:', ghostMetadata); // Debugging line
-            const htmlUrl = ghostMetadata.html;
-            console.log('HTML URL:', htmlUrl); // Debugging line
-            if (htmlUrl) {
-                window.open(htmlUrl, '_blank');
-            } else {
-                alert('No HTML data available for this ghost');
-            }
-        })
-        .catch((error) => {
-            console.error('Error:', error);
-            alert('An error occurred while fetching the ghost HTML');
-        });
+async function fetchGhostMetadata(ghostId) {
+    try {
+        const response = await fetch(`https://protected-everglades-83276.herokuapp.com/api/ghost-metadata/${ghostId}`);
+
+        if (!response.ok) {
+            throw new Error('Failed to fetch ghost metadata');
+        }
+
+        const ghostMetadata = await response.json();
+        console.log('Ghost metadata:', ghostMetadata); // Debugging line
+        return ghostMetadata;
+    } catch (error) {
+        console.error('Error:', error);
+        alert('An error occurred while fetching the ghost metadata');
+    }
 }
+
+async function openHTML() {
+    const currentGhostId = loadedGhostID; /* Ghost ID of the currently displayed ghost */
+    const ghostMetadata = await fetchGhostMetadata(currentGhostId);
+
+    if (ghostMetadata) {
+        const htmlUrl = ghostMetadata.html;
+        console.log('HTML URL:', htmlUrl); // Debugging line
+        if (htmlUrl) {
+            window.open(htmlUrl, '_blank');
+        } else {
+            alert('No HTML data available for this ghost');
+        }
+    }
+}
+
 
 
 function openSVG() {
