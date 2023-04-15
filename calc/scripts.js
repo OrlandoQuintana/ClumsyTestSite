@@ -94,6 +94,31 @@ function displayGhost(ghost, svg) {
     loadedGhostID = ghost['id'];
 }
 
+function openHTML() {
+    const currentGhostId = loadedGhostID;/* Ghost ID of the currently displayed ghost */
+    fetch(`https://protected-everglades-83276.herokuapp.com/api/ghost-metadata/${currentGhostId}`)
+        .then((response) => {
+            if (response.ok) {
+                return response.json();
+            } else {
+                throw new Error('Failed to fetch ghost metadata');
+            }
+        })
+        .then((ghostMetadata) => {
+            const htmlUrl = ghostMetadata.html;
+            if (htmlUrl) {
+                window.open(htmlUrl, '_blank');
+            } else {
+                alert('No HTML data available for this ghost');
+            }
+        })
+        .catch((error) => {
+            console.error('Error:', error);
+            alert('An error occurred while fetching the ghost HTML');
+        });
+}
+
+
 function openSVG() {
     if (loadedGhostID !== null) {
         window.open(`/calc/ghostsvgs/cg${loadedGhostID}.svg`, '_blank');
