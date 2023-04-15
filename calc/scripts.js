@@ -96,6 +96,7 @@ function displayGhost(ghost, svg) {
 
 function openHTML() {
     const currentGhostId = loadedGhostID; /* Ghost ID of the currently displayed ghost */
+    console.log(currentGhostId);
     fetch(`https://protected-everglades-83276.herokuapp.com/api/ghost-metadata/${currentGhostId}`)
         .then((response) => {
             if (response.ok) {
