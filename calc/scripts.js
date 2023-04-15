@@ -95,7 +95,7 @@ function displayGhost(ghost, svg) {
 }
 
 function openHTML() {
-    const currentGhostId = loadedGhostID;/* Ghost ID of the currently displayed ghost */
+    const currentGhostId = loadedGhostID; /* Ghost ID of the currently displayed ghost */
     fetch(`https://protected-everglades-83276.herokuapp.com/api/ghost-metadata/${currentGhostId}`)
         .then((response) => {
             if (response.ok) {
@@ -105,7 +105,9 @@ function openHTML() {
             }
         })
         .then((ghostMetadata) => {
+            console.log('Ghost metadata:', ghostMetadata); // Debugging line
             const htmlUrl = ghostMetadata.html;
+            console.log('HTML URL:', htmlUrl); // Debugging line
             if (htmlUrl) {
                 window.open(htmlUrl, '_blank');
             } else {
