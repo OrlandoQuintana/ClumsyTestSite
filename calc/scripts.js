@@ -167,7 +167,7 @@ async function displayMetadata(ghost) {
         for (const key of metadataKeys) {
             const metadataValue = key === 'varatts' ? (ghostMetadata[key] + 3) : ghostMetadata[key] || 'N/A';
             const prettyKey = prettifyMetadataKey(key);
-            const traitStatData = await fetchTraitStatsDataByName(prettyKey);
+            const traitStatData = await fetchTraitStatsDataByName(metadataValue);
 
             // Use traitStatData to extract count, stat, biome, and biome_modifier values
             const count = traitStatData.count;
