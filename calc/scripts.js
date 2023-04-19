@@ -211,7 +211,8 @@ async function displayMetadata(ghost) {
             const biome_modifier = traitStatData.biome_modifier;
 
             const metadataHTML = `<p><strong>${prettyKey}:</strong><span>${metadataValue}</span></p>
-                                  <p>Count: ${count}, Stat: ${stat}, Biome: ${biome}, Biome Modifier: ${biome_modifier}</p>`;
+                      <p>Count: ${count}<br>Stat: ${stat}<br>Biome: ${biome}<br>Biome Modifier: ${biome_modifier}</p>`;
+
 
             if (metadataKeys.indexOf(key) < 5) {
                 metadataLeftHTML += metadataHTML;
