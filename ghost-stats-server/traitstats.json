@@ -1,0 +1,1932 @@
+[
+  {
+    "type": "background",
+    "name": "ADA bag",
+    "quantity": 650,
+    "percentage": "6.50%",
+    "count": 1,
+    "stat": "smart",
+    "biome": "cyber district",
+    "biome_modifier": 1
+  },
+  {
+    "type": "background",
+    "name": "Planet",
+    "quantity": 618,
+    "percentage": "6.18%",
+    "count": 3,
+    "stat": "luck",
+    "biome": "alien",
+    "biome_modifier": 2
+  },
+  {
+    "type": "background",
+    "name": "Cake",
+    "quantity": 605,
+    "percentage": "6.05%",
+    "count": 1,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "background",
+    "name": "Frustrated emote",
+    "quantity": 599,
+    "percentage": "5.99%",
+    "count": 2,
+    "stat": "stamina",
+    "biome": "scorched earth",
+    "biome_modifier": 1
+  },
+  {
+    "type": "background",
+    "name": "Dot emote",
+    "quantity": 563,
+    "percentage": "5.63%",
+    "count": 2,
+    "stat": "stamina",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "background",
+    "name": "Heart emote",
+    "quantity": 550,
+    "percentage": "5.50%",
+    "count": 2,
+    "stat": "luck",
+    "biome": "meadows",
+    "biome_modifier": 1
+  },
+  {
+    "type": "background",
+    "name": "Skull emote",
+    "quantity": 537,
+    "percentage": "5.37%",
+    "count": 2,
+    "stat": "luck",
+    "biome": "deadlands",
+    "biome_modifier": 1
+  },
+  {
+    "type": "background",
+    "name": "Pixie",
+    "quantity": 533,
+    "percentage": "5.33%",
+    "count": 2,
+    "stat": "luck",
+    "biome": "twilight forest",
+    "biome_modifier": 1
+  },
+  {
+    "type": "background",
+    "name": "Star expression",
+    "quantity": 531,
+    "percentage": "5.31%",
+    "count": 2,
+    "stat": "luck",
+    "biome": "alien,twilight forest",
+    "biome_modifier": 1
+  },
+  {
+    "type": "background",
+    "name": "Stars",
+    "quantity": 462,
+    "percentage": "4.62%",
+    "count": 3,
+    "stat": "luck",
+    "biome": "alien,twilight forest",
+    "biome_modifier": 1
+  },
+  {
+    "type": "body",
+    "name": "RGB",
+    "quantity": 15,
+    "percentage": "0.15%",
+    "count": 10,
+    "stat": "luck",
+    "biome": "all",
+    "biome_modifier": 3
+  },
+  {
+    "type": "backpack",
+    "name": "Spoopy wings",
+    "quantity": 488,
+    "percentage": "4.88%",
+    "count": 2,
+    "stat": "speed",
+    "biome": "deadlands",
+    "biome_modifier": 1
+  },
+  {
+    "type": "backpack",
+    "name": "Dark wings",
+    "quantity": 456,
+    "percentage": "4.56%",
+    "count": 2,
+    "stat": "speed",
+    "biome": "deadlands",
+    "biome_modifier": 1
+  },
+  {
+    "type": "backpack",
+    "name": "Angelic wings",
+    "quantity": 452,
+    "percentage": "4.52%",
+    "count": 2,
+    "stat": "speed",
+    "biome": "meadows",
+    "biome_modifier": 1
+  },
+  {
+    "type": "backpack",
+    "name": "Jetpack",
+    "quantity": 412,
+    "percentage": "4.12%",
+    "count": 4,
+    "stat": "speed",
+    "biome": "all",
+    "biome_modifier": 1
+  },
+  {
+    "type": "backpack",
+    "name": "Longsword",
+    "quantity": 401,
+    "percentage": "4.01%",
+    "count": 2,
+    "stat": "stamina",
+    "biome": "meadows,tundra,deadlands,scorched earth",
+    "biome_modifier": 1
+  },
+  {
+    "type": "backpack",
+    "name": "Pickaxe",
+    "quantity": 399,
+    "percentage": "3.99%",
+    "count": 3,
+    "stat": "stamina",
+    "biome": "deadlands,meadows,dunes,tundra,scorched earth,",
+    "biome_modifier": 1
+  },
+  {
+    "type": "backpack",
+    "name": "Elf ears",
+    "quantity": 383,
+    "percentage": "3.83%",
+    "count": 3,
+    "stat": "luck",
+    "biome": "twilight forest,meadows,tundra,toxic swamps",
+    "biome_modifier": 2
+  },
+  {
+    "type": "backpack",
+    "name": "Angel wings",
+    "quantity": 381,
+    "percentage": "3.81%",
+    "count": 3,
+    "stat": "speed",
+    "biome": "meadows",
+    "biome_modifier": 1
+  },
+  {
+    "type": "backpack",
+    "name": "Devil tail",
+    "quantity": 362,
+    "percentage": "3.62%",
+    "count": 3,
+    "stat": "luck",
+    "biome": "scorched earth,deadlands",
+    "biome_modifier": 1
+  },
+  {
+    "type": "backpack",
+    "name": "Battle axe",
+    "quantity": 358,
+    "percentage": "3.58%",
+    "count": 3,
+    "stat": "stamina",
+    "biome": "deadlands,toxic swamps,scorched earth,cyber district,twilight forest",
+    "biome_modifier": 1
+  },
+  {
+    "type": "backpack",
+    "name": "Tiny wings",
+    "quantity": 348,
+    "percentage": "3.48%",
+    "count": 3,
+    "stat": "speed",
+    "biome": "twilight forest",
+    "biome_modifier": 1
+  },
+  {
+    "type": "backpack",
+    "name": "Fluffy wings",
+    "quantity": 330,
+    "percentage": "3.30%",
+    "count": 3,
+    "stat": "speed",
+    "biome": "meadows",
+    "biome_modifier": 1
+  },
+  {
+    "type": "backpack",
+    "name": "Butterfly wings",
+    "quantity": 313,
+    "percentage": "3.13%",
+    "count": 3,
+    "stat": "speed",
+    "biome": "meadows",
+    "biome_modifier": 2
+  },
+  {
+    "type": "backpack",
+    "name": "Scythe",
+    "quantity": 286,
+    "percentage": "2.86%",
+    "count": 5,
+    "stat": "stamina",
+    "biome": "meadows,toxic swamps,deadlands,twilight forest",
+    "biome_modifier": 2
+  },
+  {
+    "type": "backpack",
+    "name": "Fairy wings",
+    "quantity": 273,
+    "percentage": "2.73%",
+    "count": 4,
+    "stat": "speed",
+    "biome": "twilight forest",
+    "biome_modifier": 2
+  },
+  {
+    "type": "backpack",
+    "name": "Bat wings",
+    "quantity": 210,
+    "percentage": "2.10%",
+    "count": 4,
+    "stat": "speed",
+    "biome": "deadlands",
+    "biome_modifier": 2
+  },
+  {
+    "type": "backpack",
+    "name": "Demon wings",
+    "quantity": 206,
+    "percentage": "2.06%",
+    "count": 4,
+    "stat": "speed",
+    "biome": "scorched earth",
+    "biome_modifier": 2
+  },
+  {
+    "type": "eyes",
+    "name": "Bored",
+    "quantity": 426,
+    "percentage": "4.26%",
+    "count": 1,
+    "stat": "stamina",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "eyes",
+    "name": "Bee",
+    "quantity": 401,
+    "percentage": "4.01%",
+    "count": 1,
+    "stat": "speed",
+    "biome": "meadows",
+    "biome_modifier": 1
+  },
+  {
+    "type": "eyes",
+    "name": "Rekt",
+    "quantity": 379,
+    "percentage": "3.79%",
+    "count": 1,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "eyes",
+    "name": "Sleepy",
+    "quantity": 373,
+    "percentage": "3.73%",
+    "count": 1,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "eyes",
+    "name": "Tired",
+    "quantity": 372,
+    "percentage": "3.72%",
+    "count": 1,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "eyes",
+    "name": "Evil",
+    "quantity": 370,
+    "percentage": "3.70%",
+    "count": 1,
+    "stat": "speed",
+    "biome": "deadlands",
+    "biome_modifier": 1
+  },
+  {
+    "type": "eyes",
+    "name": "Normal",
+    "quantity": 369,
+    "percentage": "3.69%",
+    "count": 1,
+    "stat": "smart",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "eyes",
+    "name": "Happy",
+    "quantity": 367,
+    "percentage": "3.67%",
+    "count": 1,
+    "stat": "stamina",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "eyes",
+    "name": "Not looking",
+    "quantity": 367,
+    "percentage": "3.67%",
+    "count": 1,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "eyes",
+    "name": "Squint",
+    "quantity": 365,
+    "percentage": "3.65%",
+    "count": 1,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "eyes",
+    "name": "Lashy",
+    "quantity": 364,
+    "percentage": "3.64%",
+    "count": 1,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "eyes",
+    "name": "Awake",
+    "quantity": 357,
+    "percentage": "3.57%",
+    "count": 1,
+    "stat": "stamina",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "eyes",
+    "name": "Cute",
+    "quantity": 356,
+    "percentage": "3.56%",
+    "count": 1,
+    "stat": "luck",
+    "biome": "twilight forest",
+    "biome_modifier": 1
+  },
+  {
+    "type": "eyes",
+    "name": "Angry",
+    "quantity": 354,
+    "percentage": "3.54%",
+    "count": 1,
+    "stat": "speed",
+    "biome": "dunes",
+    "biome_modifier": 1
+  },
+  {
+    "type": "eyes",
+    "name": "Zombie",
+    "quantity": 354,
+    "percentage": "3.54%",
+    "count": 1,
+    "stat": "stamina",
+    "biome": "toxic swamps",
+    "biome_modifier": 1
+  },
+  {
+    "type": "eyes",
+    "name": "Winkyface",
+    "quantity": 353,
+    "percentage": "3.53%",
+    "count": 1,
+    "stat": "smart",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "eyes",
+    "name": "Happy squint",
+    "quantity": 351,
+    "percentage": "3.51%",
+    "count": 1,
+    "stat": "smart",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "eyes",
+    "name": "Blank",
+    "quantity": 348,
+    "percentage": "3.48%",
+    "count": 1,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "eyes",
+    "name": "Content",
+    "quantity": 348,
+    "percentage": "3.48%",
+    "count": 1,
+    "stat": "smart",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "eyes",
+    "name": "Shut",
+    "quantity": 348,
+    "percentage": "3.48%",
+    "count": 1,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "eyes",
+    "name": "Triumph",
+    "quantity": 347,
+    "percentage": "3.47%",
+    "count": 1,
+    "stat": "smart",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "eyes",
+    "name": "Calm",
+    "quantity": 333,
+    "percentage": "3.33%",
+    "count": 1,
+    "stat": "stamina",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "eyes",
+    "name": "Baby",
+    "quantity": 327,
+    "percentage": "3.27%",
+    "count": 1,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "eyes",
+    "name": "Creepy",
+    "quantity": 315,
+    "percentage": "3.15%",
+    "count": 1,
+    "stat": "stamina",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "eyes",
+    "name": "Droid",
+    "quantity": 312,
+    "percentage": "3.12%",
+    "count": 1,
+    "stat": "smart",
+    "biome": "cyber district",
+    "biome_modifier": 1
+  },
+  {
+    "type": "eyes",
+    "name": "Pinpoint",
+    "quantity": 309,
+    "percentage": "3.09%",
+    "count": 1,
+    "stat": "speed",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "eyes",
+    "name": "Woozy",
+    "quantity": 286,
+    "percentage": "2.86%",
+    "count": 2,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "eyes",
+    "name": "Love",
+    "quantity": 274,
+    "percentage": "2.74%",
+    "count": 2,
+    "stat": "stamina",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "eyes",
+    "name": "Cyclops",
+    "quantity": 175,
+    "percentage": "1.75%",
+    "count": 3,
+    "stat": "luck",
+    "biome": "meadows",
+    "biome_modifier": 1
+  },
+  {
+    "type": "face",
+    "name": "Lightning bolt tattoo",
+    "quantity": 426,
+    "percentage": "4.26%",
+    "count": 1,
+    "stat": "speed",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "face",
+    "name": "Shield",
+    "quantity": 410,
+    "percentage": "4.10%",
+    "count": 1,
+    "stat": "stamina",
+    "biome": "meadows",
+    "biome_modifier": 0
+  },
+  {
+    "type": "face",
+    "name": "Gas mask",
+    "quantity": 389,
+    "percentage": "3.89%",
+    "count": 1,
+    "stat": "stamina",
+    "biome": "toxic swamps",
+    "biome_modifier": 2
+  },
+  {
+    "type": "face",
+    "name": "ADA necklace",
+    "quantity": 383,
+    "percentage": "3.83%",
+    "count": 1,
+    "stat": "smart",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "face",
+    "name": "Eye scar",
+    "quantity": 381,
+    "percentage": "3.81%",
+    "count": 1,
+    "stat": "stamina",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "face",
+    "name": "Bubble gum",
+    "quantity": 381,
+    "percentage": "3.81%",
+    "count": 1,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "face",
+    "name": "Bullet holes",
+    "quantity": 367,
+    "percentage": "3.67%",
+    "count": 1,
+    "stat": "stamina",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "face",
+    "name": "Gas mask graffiti",
+    "quantity": 359,
+    "percentage": "3.59%",
+    "count": 1,
+    "stat": "stamina",
+    "biome": "toxic swamps",
+    "biome_modifier": 2
+  },
+  {
+    "type": "face",
+    "name": "ADA tattoo",
+    "quantity": 349,
+    "percentage": "3.49%",
+    "count": 1,
+    "stat": "smart",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "face",
+    "name": "Side pistol",
+    "quantity": 342,
+    "percentage": "3.42%",
+    "count": 1,
+    "stat": "stamina",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "face",
+    "name": "Clown blush",
+    "quantity": 316,
+    "percentage": "3.16%",
+    "count": 1,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "face",
+    "name": "Long shield",
+    "quantity": 296,
+    "percentage": "2.96%",
+    "count": 2,
+    "stat": "stamina",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "face",
+    "name": "Tears",
+    "quantity": 274,
+    "percentage": "2.74%",
+    "count": 2,
+    "stat": "stamina",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "face",
+    "name": "Sweat",
+    "quantity": 253,
+    "percentage": "2.53%",
+    "count": 2,
+    "stat": "stamina",
+    "biome": "dunes",
+    "biome_modifier": 1
+  },
+  {
+    "type": "face",
+    "name": "Party blower",
+    "quantity": 235,
+    "percentage": "2.35%",
+    "count": 2,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "glasses",
+    "name": "Shield sunglasses",
+    "quantity": 599,
+    "percentage": "5.99%",
+    "count": 1,
+    "stat": "stamina",
+    "biome": "scorched earth",
+    "biome_modifier": 1
+  },
+  {
+    "type": "glasses",
+    "name": "AR goggles",
+    "quantity": 581,
+    "percentage": "5.81%",
+    "count": 1,
+    "stat": "smart",
+    "biome": "cyber district",
+    "biome_modifier": 1
+  },
+  {
+    "type": "glasses",
+    "name": "Eye patch",
+    "quantity": 551,
+    "percentage": "5.51%",
+    "count": 1,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "glasses",
+    "name": "Stylish glasses",
+    "quantity": 462,
+    "percentage": "4.62%",
+    "count": 1,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "glasses",
+    "name": "Monocle",
+    "quantity": 455,
+    "percentage": "4.55%",
+    "count": 1,
+    "stat": "smart",
+    "biome": "cyber district",
+    "biome_modifier": 1
+  },
+  {
+    "type": "glasses",
+    "name": "Nerdy glasses",
+    "quantity": 452,
+    "percentage": "4.52%",
+    "count": 1,
+    "stat": "smart",
+    "biome": "cyber district",
+    "biome_modifier": 1
+  },
+  {
+    "type": "glasses",
+    "name": "Reading glasses",
+    "quantity": 444,
+    "percentage": "4.44%",
+    "count": 1,
+    "stat": "smart",
+    "biome": "twilight forest",
+    "biome_modifier": 1
+  },
+  {
+    "type": "glasses",
+    "name": "Sunglasses",
+    "quantity": 433,
+    "percentage": "4.33%",
+    "count": 1,
+    "stat": "luck",
+    "biome": "dunes",
+    "biome_modifier": 1
+  },
+  {
+    "type": "glasses",
+    "name": "Ghost pods",
+    "quantity": 372,
+    "percentage": "3.72%",
+    "count": 1,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "glasses",
+    "name": "Hot glasses",
+    "quantity": 367,
+    "percentage": "3.67%",
+    "count": 1,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "glasses",
+    "name": "Heart glasses",
+    "quantity": 304,
+    "percentage": "3.04%",
+    "count": 1,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "glasses",
+    "name": "Medical eye patch",
+    "quantity": 294,
+    "percentage": "2.94%",
+    "count": 2,
+    "stat": "smart",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "glasses",
+    "name": "Snorkel",
+    "quantity": 194,
+    "percentage": "1.94%",
+    "count": 3,
+    "stat": "stamina",
+    "biome": "ocean",
+    "biome_modifier": 1
+  },
+  {
+    "type": "glasses",
+    "name": "Monk blindfold",
+    "quantity": 145,
+    "percentage": "1.45%",
+    "count": 3,
+    "stat": "stamina",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "hands",
+    "name": "Gamepad",
+    "quantity": 369,
+    "percentage": "3.69%",
+    "count": 1,
+    "stat": "smart",
+    "biome": "cyber district",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hands",
+    "name": "Ghost on string",
+    "quantity": 355,
+    "percentage": "3.55%",
+    "count": 1,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "hands",
+    "name": "Rifle",
+    "quantity": 342,
+    "percentage": "3.42%",
+    "count": 1,
+    "stat": "stamina",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "hands",
+    "name": "Shotgun",
+    "quantity": 330,
+    "percentage": "3.30%",
+    "count": 1,
+    "stat": "stamina",
+    "biome": "deadlands",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hands",
+    "name": "Barbell",
+    "quantity": 323,
+    "percentage": "3.23%",
+    "count": 1,
+    "stat": "stamina",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "hands",
+    "name": "Guitar",
+    "quantity": 321,
+    "percentage": "3.21%",
+    "count": 1,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "hands",
+    "name": "Hockey stick",
+    "quantity": 309,
+    "percentage": "3.09%",
+    "count": 2,
+    "stat": "stamina",
+    "biome": "tundra",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hands",
+    "name": "Knife",
+    "quantity": 296,
+    "percentage": "2.96%",
+    "count": 2,
+    "stat": "stamina",
+    "biome": "toxic swamps",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hands",
+    "name": "Shuriken",
+    "quantity": 278,
+    "percentage": "2.78%",
+    "count": 2,
+    "stat": "speed",
+    "biome": "cyber district",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hands",
+    "name": "Scimitar",
+    "quantity": 271,
+    "percentage": "2.71%",
+    "count": 2,
+    "stat": "stamina",
+    "biome": "dunes",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hands",
+    "name": "Moon wand",
+    "quantity": 270,
+    "percentage": "2.70%",
+    "count": 3,
+    "stat": "luck",
+    "biome": "twilight forests",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hands",
+    "name": "Pencil",
+    "quantity": 270,
+    "percentage": "2.70%",
+    "count": 3,
+    "stat": "smart",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "hands",
+    "name": "Tennis racket",
+    "quantity": 267,
+    "percentage": "2.67%",
+    "count": 3,
+    "stat": "speed",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "hands",
+    "name": "Wrench",
+    "quantity": 255,
+    "percentage": "2.55%",
+    "count": 3,
+    "stat": "smart",
+    "biome": "cyber district",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hands",
+    "name": "Shovel",
+    "quantity": 253,
+    "percentage": "2.53%",
+    "count": 3,
+    "stat": "stamina",
+    "biome": "meadows,tundra,dunes",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hands",
+    "name": "Broomstick",
+    "quantity": 252,
+    "percentage": "2.52%",
+    "count": 3,
+    "stat": "luck",
+    "biome": "toxic swamp",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hands",
+    "name": "Hammer",
+    "quantity": 250,
+    "percentage": "2.50%",
+    "count": 3,
+    "stat": "stamina",
+    "biome": "dunes",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hands",
+    "name": "Crowbar",
+    "quantity": 245,
+    "percentage": "2.45%",
+    "count": 3,
+    "stat": "stamina",
+    "biome": "alien",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hands",
+    "name": "Fishing rod",
+    "quantity": 237,
+    "percentage": "2.37%",
+    "count": 3,
+    "stat": "luck",
+    "biome": "meadows",
+    "biome_modifier": 2
+  },
+  {
+    "type": "hands",
+    "name": "Magic wand",
+    "quantity": 236,
+    "percentage": "2.36%",
+    "count": 3,
+    "stat": "luck",
+    "biome": "twilight forest",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hands",
+    "name": "Piercing",
+    "quantity": 218,
+    "percentage": "2.18%",
+    "count": 3,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "hat",
+    "name": "Black pirate snapback",
+    "quantity": 142,
+    "percentage": "1.42%",
+    "count": 1,
+    "stat": "stamina",
+    "biome": "ocean",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hat",
+    "name": "Star antennas",
+    "quantity": 137,
+    "percentage": "1.37%",
+    "count": 1,
+    "stat": "luck",
+    "biome": "alien",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hat",
+    "name": "Deadpxlz hat",
+    "quantity": 136,
+    "percentage": "1.36%",
+    "count": 1,
+    "stat": "smart",
+    "biome": "cyber district",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hat",
+    "name": "Rubber ducky",
+    "quantity": 133,
+    "percentage": "1.33%",
+    "count": 1,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "hat",
+    "name": "White ADA snapback",
+    "quantity": 130,
+    "percentage": "1.30%",
+    "count": 1,
+    "stat": "smart",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "hat",
+    "name": "Pigtails",
+    "quantity": 130,
+    "percentage": "1.30%",
+    "count": 1,
+    "stat": "smart",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "hat",
+    "name": "Halo",
+    "quantity": 128,
+    "percentage": "1.28%",
+    "count": 1,
+    "stat": "luck",
+    "biome": "meadows",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hat",
+    "name": "Cute cap",
+    "quantity": 127,
+    "percentage": "1.27%",
+    "count": 1,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "hat",
+    "name": "Chef hat",
+    "quantity": 127,
+    "percentage": "1.27%",
+    "count": 1,
+    "stat": "smart",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "hat",
+    "name": "Crown",
+    "quantity": 126,
+    "percentage": "1.26%",
+    "count": 1,
+    "stat": "smart",
+    "biome": "meadows",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hat",
+    "name": "Mohawk",
+    "quantity": 126,
+    "percentage": "1.26%",
+    "count": 1,
+    "stat": "stamina",
+    "biome": "cyber district",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hat",
+    "name": "Frog friend",
+    "quantity": 122,
+    "percentage": "1.22%",
+    "count": 2,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "hat",
+    "name": "Super hair",
+    "quantity": 121,
+    "percentage": "1.21%",
+    "count": 2,
+    "stat": "speed",
+    "biome": "alien",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hat",
+    "name": "Bomb",
+    "quantity": 121,
+    "percentage": "1.21%",
+    "count": 2,
+    "stat": "speed",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "hat",
+    "name": "Bat friend",
+    "quantity": 117,
+    "percentage": "1.17%",
+    "count": 2,
+    "stat": "speed",
+    "biome": "deadlands",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hat",
+    "name": "Monkey friend",
+    "quantity": 117,
+    "percentage": "1.17%",
+    "count": 2,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "hat",
+    "name": "Octopus friend",
+    "quantity": 115,
+    "percentage": "1.15%",
+    "count": 2,
+    "stat": "smart",
+    "biome": "ocean",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hat",
+    "name": "Cherry on top",
+    "quantity": 112,
+    "percentage": "1.12%",
+    "count": 2,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "hat",
+    "name": "Party hat",
+    "quantity": 111,
+    "percentage": "1.11%",
+    "count": 2,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "hat",
+    "name": "Crabby friend",
+    "quantity": 110,
+    "percentage": "1.10%",
+    "count": 2,
+    "stat": "smart",
+    "biome": "ocean",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hat",
+    "name": "Cat friend",
+    "quantity": 109,
+    "percentage": "1.09%",
+    "count": 2,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "hat",
+    "name": "Witch hat",
+    "quantity": 107,
+    "percentage": "1.07%",
+    "count": 2,
+    "stat": "luck",
+    "biome": "toxic swamps",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hat",
+    "name": "Devil horns",
+    "quantity": 107,
+    "percentage": "1.07%",
+    "count": 2,
+    "stat": "smart",
+    "biome": "scorched earth",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hat",
+    "name": "Bird friend",
+    "quantity": 106,
+    "percentage": "1.06%",
+    "count": 2,
+    "stat": "speed",
+    "biome": "twilight forest",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hat",
+    "name": "Tennis ball",
+    "quantity": 105,
+    "percentage": "1.05%",
+    "count": 2,
+    "stat": "speed",
+    "biome": "meadows",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hat",
+    "name": "Static",
+    "quantity": 105,
+    "percentage": "1.05%",
+    "count": 2,
+    "stat": "speed",
+    "biome": "cyber district",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hat",
+    "name": "Cowboy hat",
+    "quantity": 104,
+    "percentage": "1.04%",
+    "count": 2,
+    "stat": "luck",
+    "biome": "dunes",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hat",
+    "name": "Fast food hat",
+    "quantity": 104,
+    "percentage": "1.04%",
+    "count": 2,
+    "stat": "stamina",
+    "biome": "cyber district",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hat",
+    "name": "Nurse's cap",
+    "quantity": 103,
+    "percentage": "1.03%",
+    "count": 2,
+    "stat": "stamina",
+    "biome": "meadows",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hat",
+    "name": "Sailor hat",
+    "quantity": 102,
+    "percentage": "1.02%",
+    "count": 2,
+    "stat": "stamina",
+    "biome": "ocean",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hat",
+    "name": "ADA hat",
+    "quantity": 100,
+    "percentage": "1.00%",
+    "count": 2,
+    "stat": "smart",
+    "biome": "cyber district",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hat",
+    "name": "Rasta dreads",
+    "quantity": 100,
+    "percentage": "1.00%",
+    "count": 2,
+    "stat": "luck",
+    "biome": "twilight forest",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hat",
+    "name": "Toque",
+    "quantity": 100,
+    "percentage": "1.00%",
+    "count": 2,
+    "stat": "luck",
+    "biome": "tundra",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hat",
+    "name": "Rabbit ears",
+    "quantity": 98,
+    "percentage": "0.98%",
+    "count": 3,
+    "stat": "speed",
+    "biome": "meadows",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hat",
+    "name": "Frankenhair",
+    "quantity": 98,
+    "percentage": "0.98%",
+    "count": 3,
+    "stat": "stamina",
+    "biome": "toxic swamps",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hat",
+    "name": "Santa hat",
+    "quantity": 98,
+    "percentage": "0.98%",
+    "count": 3,
+    "stat": "speed",
+    "biome": "tundra",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hat",
+    "name": "Mushroom hat",
+    "quantity": 98,
+    "percentage": "0.98%",
+    "count": 3,
+    "stat": "speed",
+    "biome": "toxic swamps,meadows,deadlands,twilight forest,alien",
+    "biome_modifier": 2
+  },
+  {
+    "type": "hat",
+    "name": "Top hat",
+    "quantity": 97,
+    "percentage": "0.97%",
+    "count": 3,
+    "stat": "smart",
+    "biome": "cyber district",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hat",
+    "name": "Princess wizard",
+    "quantity": 93,
+    "percentage": "0.93%",
+    "count": 3,
+    "stat": "luck",
+    "biome": "twilight forest",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hat",
+    "name": "Cowgirl hat",
+    "quantity": 93,
+    "percentage": "0.93%",
+    "count": 3,
+    "stat": "luck",
+    "biome": "dunes",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hat",
+    "name": "Cardano logo",
+    "quantity": 92,
+    "percentage": "0.92%",
+    "count": 3,
+    "stat": "smart",
+    "biome": "cyber district",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hat",
+    "name": "Parrot friend",
+    "quantity": 87,
+    "percentage": "0.87%",
+    "count": 4,
+    "stat": "smart",
+    "biome": "ocean",
+    "biome_modifier": 2
+  },
+  {
+    "type": "hat",
+    "name": "Headphones",
+    "quantity": 85,
+    "percentage": "0.85%",
+    "count": 4,
+    "stat": "smart",
+    "biome": "cyber district",
+    "biome_modifier": 2
+  },
+  {
+    "type": "hat",
+    "name": "Cat ears",
+    "quantity": 85,
+    "percentage": "0.85%",
+    "count": 4,
+    "stat": "luck",
+    "biome": "cyber district",
+    "biome_modifier": 2
+  },
+  {
+    "type": "hat",
+    "name": "Space helmet",
+    "quantity": 83,
+    "percentage": "0.83%",
+    "count": 4,
+    "stat": "speed",
+    "biome": "alien",
+    "biome_modifier": 2
+  },
+  {
+    "type": "hat",
+    "name": "Hot head",
+    "quantity": 83,
+    "percentage": "0.83%",
+    "count": 4,
+    "stat": "speed",
+    "biome": "scorched earth",
+    "biome_modifier": 2
+  },
+  {
+    "type": "hat",
+    "name": "Shooting star",
+    "quantity": 82,
+    "percentage": "0.82%",
+    "count": 4,
+    "stat": "speed",
+    "biome": "twilight forest",
+    "biome_modifier": 2
+  },
+  {
+    "type": "hat",
+    "name": "Pirate hat",
+    "quantity": 81,
+    "percentage": "0.81%",
+    "count": 4,
+    "stat": "luck",
+    "biome": "ocean",
+    "biome_modifier": 2
+  },
+  {
+    "type": "hat",
+    "name": "Sombrero",
+    "quantity": 79,
+    "percentage": "0.79%",
+    "count": 4,
+    "stat": "luck",
+    "biome": "dunes",
+    "biome_modifier": 2
+  },
+  {
+    "type": "hat",
+    "name": "Unicorn hat",
+    "quantity": 78,
+    "percentage": "0.78%",
+    "count": 4,
+    "stat": "smart",
+    "biome": "twilight forest",
+    "biome_modifier": 2
+  },
+  {
+    "type": "hat",
+    "name": "Plaid hat",
+    "quantity": 77,
+    "percentage": "0.77%",
+    "count": 4,
+    "stat": "luck",
+    "biome": "meadows",
+    "biome_modifier": 2
+  },
+  {
+    "type": "hat",
+    "name": "Headset",
+    "quantity": 77,
+    "percentage": "0.77%",
+    "count": 4,
+    "stat": "luck",
+    "biome": "cyber district",
+    "biome_modifier": 2
+  },
+  {
+    "type": "hat",
+    "name": "Army helmet",
+    "quantity": 74,
+    "percentage": "0.74%",
+    "count": 4,
+    "stat": "stamina",
+    "biome": "meadows",
+    "biome_modifier": 1
+  },
+  {
+    "type": "hat",
+    "name": "Circlet",
+    "quantity": 68,
+    "percentage": "0.68%",
+    "count": 5,
+    "stat": "smart",
+    "biome": "twilight forest",
+    "biome_modifier": 3
+  },
+  {
+    "type": "hat",
+    "name": "Bunny ears",
+    "quantity": 66,
+    "percentage": "0.66%",
+    "count": 5,
+    "stat": "speed",
+    "biome": "meadows",
+    "biome_modifier": 3
+  },
+  {
+    "type": "hat",
+    "name": "Explorer",
+    "quantity": 64,
+    "percentage": "0.64%",
+    "count": 5,
+    "stat": "smart",
+    "biome": "all",
+    "biome_modifier": 3
+  },
+  {
+    "type": "hat",
+    "name": "Cyborg",
+    "quantity": 60,
+    "percentage": "0.60%",
+    "count": 5,
+    "stat": "smart",
+    "biome": "cyber district",
+    "biome_modifier": 3
+  },
+  {
+    "type": "hat",
+    "name": "Heart antenna",
+    "quantity": 58,
+    "percentage": "0.58%",
+    "count": 5,
+    "stat": "luck",
+    "biome": "meadows",
+    "biome_modifier": 3
+  },
+  {
+    "type": "hat",
+    "name": "Rainbow",
+    "quantity": 53,
+    "percentage": "0.53%",
+    "count": 5,
+    "stat": "luck",
+    "biome": "meadows",
+    "biome_modifier": 3
+  },
+  {
+    "type": "hat",
+    "name": "Axe",
+    "quantity": 50,
+    "percentage": "0.50%",
+    "count": 5,
+    "stat": "stamina",
+    "biome": "meadows",
+    "biome_modifier": 3
+  },
+  {
+    "type": "hat",
+    "name": "Reaper hoodie",
+    "quantity": 29,
+    "percentage": "0.29%",
+    "count": 6,
+    "stat": "speed",
+    "biome": "deadlands",
+    "biome_modifier": 3
+  },
+  {
+    "type": "hat",
+    "name": "Viking helmet",
+    "quantity": 24,
+    "percentage": "0.24%",
+    "count": 6,
+    "stat": "stamina",
+    "biome": "tundra",
+    "biome_modifier": 3
+  },
+  {
+    "type": "outfit",
+    "name": "Skull t-shirt",
+    "quantity": 350,
+    "percentage": "3.50%",
+    "count": 1,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "outfit",
+    "name": "Mummy",
+    "quantity": 321,
+    "percentage": "3.21%",
+    "count": 1,
+    "stat": "stamina",
+    "biome": "dunes",
+    "biome_modifier": 1
+  },
+  {
+    "type": "outfit",
+    "name": "Shirt and tie",
+    "quantity": 321,
+    "percentage": "3.21%",
+    "count": 1,
+    "stat": "smart",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "outfit",
+    "name": "Tux shirt and tie",
+    "quantity": 314,
+    "percentage": "3.14%",
+    "count": 1,
+    "stat": "smart",
+    "biome": "cyber district",
+    "biome_modifier": 1
+  },
+  {
+    "type": "outfit",
+    "name": "Bandaid",
+    "quantity": 302,
+    "percentage": "3.02%",
+    "count": 1,
+    "stat": "stamina",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "outfit",
+    "name": "Lifeguard t-shirt",
+    "quantity": 292,
+    "percentage": "2.92%",
+    "count": 1,
+    "stat": "luck",
+    "biome": "ocean",
+    "biome_modifier": 1
+  },
+  {
+    "type": "outfit",
+    "name": "Aikido gi",
+    "quantity": 285,
+    "percentage": "2.85%",
+    "count": 2,
+    "stat": "speed",
+    "biome": "cyber district",
+    "biome_modifier": 1
+  },
+  {
+    "type": "outfit",
+    "name": "Overalls",
+    "quantity": 282,
+    "percentage": "2.82%",
+    "count": 2,
+    "stat": "luck",
+    "biome": "meadows",
+    "biome_modifier": 1
+  },
+  {
+    "type": "outfit",
+    "name": "T-shirt",
+    "quantity": 282,
+    "percentage": "2.82%",
+    "count": 2,
+    "stat": "smart",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "outfit",
+    "name": "Bandaid confetti cute",
+    "quantity": 261,
+    "percentage": "2.61%",
+    "count": 2,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "outfit",
+    "name": "Bandaid confetti skull",
+    "quantity": 256,
+    "percentage": "2.56%",
+    "count": 2,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "outfit",
+    "name": "Spoopy skeleton",
+    "quantity": 253,
+    "percentage": "2.53%",
+    "count": 2,
+    "stat": "stamina",
+    "biome": "deadlands",
+    "biome_modifier": 1
+  },
+  {
+    "type": "outfit",
+    "name": "Stache",
+    "quantity": 243,
+    "percentage": "2.43%",
+    "count": 2,
+    "stat": "smart",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "outfit",
+    "name": "Zombie",
+    "quantity": 238,
+    "percentage": "2.38%",
+    "count": 2,
+    "stat": "stamina",
+    "biome": "toxic swamps",
+    "biome_modifier": 1
+  },
+  {
+    "type": "outfit",
+    "name": "Ninjutsu gi",
+    "quantity": 200,
+    "percentage": "2.00%",
+    "count": 3,
+    "stat": "speed",
+    "biome": "cyber district",
+    "biome_modifier": 1
+  },
+  {
+    "type": "outfit",
+    "name": "Jester",
+    "quantity": 196,
+    "percentage": "1.96%",
+    "count": 3,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "outfit",
+    "name": "Spliff",
+    "quantity": 189,
+    "percentage": "1.89%",
+    "count": 3,
+    "stat": "luck",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "outfit",
+    "name": "Medical mask",
+    "quantity": 168,
+    "percentage": "1.68%",
+    "count": 3,
+    "stat": "smart",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "outfit",
+    "name": "Floaty flamingo",
+    "quantity": 167,
+    "percentage": "1.67%",
+    "count": 3,
+    "stat": "luck",
+    "biome": "ocean",
+    "biome_modifier": 2
+  },
+  {
+    "type": "outfit",
+    "name": "Bloody",
+    "quantity": 156,
+    "percentage": "1.56%",
+    "count": 3,
+    "stat": "stamina",
+    "biome": "deadlands",
+    "biome_modifier": 3
+  },
+  {
+    "type": "outfit",
+    "name": "Robot",
+    "quantity": 88,
+    "percentage": "0.88%",
+    "count": 4,
+    "stat": "smart",
+    "biome": "cyber district",
+    "biome_modifier": 3
+  },
+  {
+    "type": "outfit",
+    "name": "Vampire suit",
+    "quantity": 87,
+    "percentage": "0.87%",
+    "count": 4,
+    "stat": "speed",
+    "biome": "deadlands",
+    "biome_modifier": 3
+  },
+  {
+    "type": "outfit",
+    "name": "Nurse's pack",
+    "quantity": 79,
+    "percentage": "0.79%",
+    "count": 5,
+    "stat": "smart",
+    "biome": "",
+    "biome_modifier": 0
+  },
+  {
+    "type": "outfit",
+    "name": "Bat mask",
+    "quantity": 38,
+    "percentage": "0.38%",
+    "count": 6,
+    "stat": "speed",
+    "biome": "cyber district",
+    "biome_modifier": 3
+  }
+]

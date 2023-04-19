@@ -139,53 +139,58 @@ async function fetchGhostMetadata(ghostId) {
     }
 }
 
-function displayMetadata(ghost) {
+async function fetchTraitStatsDataByName(name) {
+    const response = await fetch(`https://protected-everglades-83276.herokuapp.com/api/trait-stats/name/${name}`);
+    const data = await response.json();
+    return data;
+}
+
+async function displayMetadata(ghost) {
     const currentGhostId = ghost.id;
-    fetch(`https://protected-everglades-83276.herokuapp.com/api/ghost-metadata/${currentGhostId}`)
-        .then((response) => {
-            if (response.ok) {
-                return response.json();
+    const ghostMetadata = await fetchGhostMetadata(currentGhostId);
+
+    if (ghostMetadata) {
+        const metadataLeft = document.getElementById('metadata-left');
+        const metadataCenter = document.getElementById('metadata-center');
+        const metadataRight = document.getElementById('metadata-right');
+
+        const metadataKeys = [
+            'backdrop', 'background', 'backpack', 'blastoff', 'body',
+            'eyes', 'face', 'glasses', 'hands', 'hat',
+            'hideme', 'outfit', 'special', 'varatts'
+        ];
+
+        let metadataLeftHTML = '';
+        let metadataCenterHTML = '';
+        let metadataRightHTML = '';
+
+        for (const key of metadataKeys) {
+            const metadataValue = key === 'varatts' ? (ghostMetadata[key] + 3) : ghostMetadata[key] || 'N/A';
+            const prettyKey = prettifyMetadataKey(key);
+            const traitStatData = await fetchTraitStatsDataByName(prettyKey);
+
+            // Use traitStatData to extract count, stat, biome, and biome_modifier values
+            const count = traitStatData.count;
+            const stat = traitStatData.stat;
+            const biome = traitStatData.biome;
+            const biome_modifier = traitStatData.biome_modifier;
+
+            const metadataHTML = `<p><strong>${prettyKey}:</strong><span>${metadataValue}</span></p>
+                                  <p>Count: ${count}, Stat: ${stat}, Biome: ${biome}, Biome Modifier: ${biome_modifier}</p>`;
+
+            if (metadataKeys.indexOf(key) < 5) {
+                metadataLeftHTML += metadataHTML;
+            } else if (metadataKeys.indexOf(key) < 10) {
+                metadataCenterHTML += metadataHTML;
             } else {
-                throw new Error('Failed to fetch ghost metadata');
+                metadataRightHTML += metadataHTML;
             }
-        })
-        .then((ghostMetadata) => {
-            const metadataLeft = document.getElementById('metadata-left');
-            const metadataCenter = document.getElementById('metadata-center');
-            const metadataRight = document.getElementById('metadata-right');
+        }
 
-            const metadataKeys = [
-                'backdrop', 'background', 'backpack', 'blastoff', 'body',
-                'eyes', 'face', 'glasses', 'hands', 'hat',
-                'hideme', 'outfit', 'special', 'varatts'
-            ];
-
-            let metadataLeftHTML = '';
-            let metadataCenterHTML = '';
-            let metadataRightHTML = '';
-
-            for (const key of metadataKeys) {
-                const metadataValue = key === 'varatts' ? (ghostMetadata[key] + 3) : ghostMetadata[key] || 'N/A';
-                const prettyKey = prettifyMetadataKey(key);
-                const metadataHTML = `<p><strong>${prettyKey}:</strong><span>${metadataValue}</span></p>`;
-
-                if (metadataKeys.indexOf(key) < 5) {
-                    metadataLeftHTML += metadataHTML;
-                } else if (metadataKeys.indexOf(key) < 10) {
-                    metadataCenterHTML += metadataHTML;
-                } else {
-                    metadataRightHTML += metadataHTML;
-                }
-            }
-
-            metadataLeft.innerHTML = metadataLeftHTML;
-            metadataCenter.innerHTML = metadataCenterHTML;
-            metadataRight.innerHTML = metadataRightHTML;
-        })
-        .catch((error) => {
-            console.error('Error:', error);
-            alert('An error occurred while fetching the ghost metadata');
-        });
+        metadataLeft.innerHTML = metadataLeftHTML;
+        metadataCenter.innerHTML = metadataCenterHTML;
+        metadataRight.innerHTML = metadataRightHTML;
+    }
 }
 
 

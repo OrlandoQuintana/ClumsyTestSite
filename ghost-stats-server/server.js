@@ -19,6 +19,8 @@ const db = new sqlite3.Database(':memory:', (err) => {
 const path = require('path');
 const ghostStats = require(path.join(__dirname, 'ghoststats.json'));
 const ghostMetadata = require(path.join(__dirname, 'ghostmetadata.json'));
+const traitStats = require(path.join(__dirname, 'traitstats.json'));
+
 
 
 const createGhostsTableQuery = `
@@ -67,6 +69,20 @@ CREATE TABLE IF NOT EXISTS ghost_metadata (
   svg TEXT,
   varatts INTEGER
 );`;
+
+const createTraitStatsTableQuery = `
+CREATE TABLE IF NOT EXISTS new_json_data (
+  id INTEGER PRIMARY KEY,
+  type TEXT,
+  name TEXT,
+  quantity INTEGER,
+  percentage TEXT,
+  count INTEGER,
+  stat TEXT,
+  biome TEXT,
+  biome_modifier INTEGER
+);`;
+
 
 db.serialize(() => {
   // Create ghosts table and insert data
@@ -158,6 +174,37 @@ db.serialize(() => {
     }
   });
 
+  db.run(createTraitStatsTableQuery, (err) => {
+    if (err) {
+      console.error(err.message);
+    } else {
+      console.log("Trait Stats table created");
+      traitStats.forEach((item) => {
+        const insertTraitStatsQuery = `
+        INSERT INTO new_json_data (
+          type, name, quantity, percentage, count, stat, biome, biome_modifier
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?);
+        `;
+        const params = [
+          item["type"],
+          item["name"],
+          item["quantity"],
+          item["percentage"],
+          item["count"],
+          item["stat"],
+          item["biome"],
+          item["biome_modifier"],
+        ];
+        db.run(insertTraitStatsQuery, params, (err) => {
+          if (err) {
+            console.error(err.message);
+          }
+        });
+      });
+    }
+  });
+
+
   // API endpoint to get all ghosts
   app.get('/api/ghosts', (req, res) => {
     const query = 'SELECT * FROM ghosts;';
@@ -216,7 +263,36 @@ db.serialize(() => {
       }
     });
   });
-}); // <-- Add this line here
+});
+
+app.get('/api/trait-stats', (req, res) => {
+  const query = 'SELECT * FROM new_json_data;';
+  db.all(query, [], (err, rows) => {
+    if (err) {
+      console.error(err.message);
+      res.status(500).json({ error: 'An error occurred while fetching new JSON data.' });
+    } else {
+      res.json(rows);
+    }
+  });
+});
+
+app.get('/api/trait-stats/name/:name', (req, res) => {
+  const name = req.params.name;
+  const query = 'SELECT * FROM new_json_data WHERE name = ?;';
+  db.all(query, [name], (err, rows) => {
+    if (err) {
+      console.error(err.message);
+      res.status(500).json({ error: 'An error occurred while fetching data by name.' });
+    } else if (rows.length > 0) {
+      res.json(rows);
+    } else {
+      res.status(404).json({ error: 'Data with the specified name not found.' });
+    }
+  });
+});
+
+
 
 // Start the server
 app.listen(PORT, () => {
