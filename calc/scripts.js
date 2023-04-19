@@ -95,6 +95,8 @@ function displayGhost(ghost, svg) {
     let statsLeftHTML = '';
     let statsRightHTML = '';
 
+    let total = ghost['stamina'] + ghost['smarts'] + ghost['luck'] + ghost['speed'];
+
     for (const key in ghost) {
         if (key !== 'id' && key !== 'rank_modifier') {
             const prettyKey = prettifyKey(key);
@@ -102,8 +104,11 @@ function displayGhost(ghost, svg) {
             const keyImage = keyImages[prettyKey];
             const imgHtml = keyImage ? `<img src="/calc/keyImages/${keyImage}">` : '';
 
-            if (key === 'name' || key === 'rarity_rank' || key === 'speed' || key === 'stamina' || key === 'smarts' || key === 'luck' || key === 'farming_length') {
+            if (key === 'name' || key === 'rarity_rank' || key === 'speed' || key === 'stamina' || key === 'smarts' || key === 'luck') {
                 statsLeftHTML += `<p><strong>${imgHtml}${prettyKey}:</strong><span>${statValue}</span></p>`;
+                if (key === 'speed') {
+                    statsLeftHTML += `<p><strong>Total:</strong><span>${total}</span></p>`;
+                }
             } else {
                 statsRightHTML += `<p><strong>${imgHtml}${prettyKey}:</strong><span>${statValue}</span></p>`;
             }
