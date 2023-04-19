@@ -140,36 +140,10 @@ async function fetchGhostMetadata(ghostId) {
 }
 
 async function fetchTraitStatsDataByName(name) {
-    if (!name) {
-        console.error('Empty name passed to fetchTraitStatsDataByName');
-        return {
-            count: 'N/A',
-            stat: 'N/A',
-            biome: 'N/A',
-            biome_modifier: 'N/A',
-        };
-    }
-
     const response = await fetch(`https://protected-everglades-83276.herokuapp.com/api/trait-stats/name/${name}`);
-
-    if (!response.ok) {
-        if (response.status === 404) {
-            console.error(`Trait stats data not found for name: ${name}`);
-            return {
-                count: 'N/A',
-                stat: 'N/A',
-                biome: 'N/A',
-                biome_modifier: 'N/A',
-            };
-        }
-
-        throw new Error(`Failed to fetch trait stats data for name: ${name}`);
-    }
-
-    return await response.json();
-    console.log(response);
+    const data = await response.json();
+    return data;
 }
-
 
 async function displayMetadata(ghost) {
     const currentGhostId = ghost.id;
