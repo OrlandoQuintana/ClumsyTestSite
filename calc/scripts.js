@@ -179,10 +179,9 @@ async function displayMetadata(ghost) {
 
         if (metadataValue !== 'N/A' && validNames.includes(metadataValue)) {
             const traitStatData = await fetchTraitStatsDataByName(metadataValue);
-
+            console.log(traitStatData);
             // Use traitStatData to extract count, stat, biome, and biome_modifier values
             const count = traitStatData.count;
-            console.log(count);
             const stat = traitStatData.stat;
             const biome = traitStatData.biome;
             const biome_modifier = traitStatData.biome_modifier;
