@@ -142,7 +142,6 @@ async function fetchGhostMetadata(ghostId) {
 async function fetchTraitStatsDataByName(name) {
     const response = await fetch(`https://protected-everglades-83276.herokuapp.com/api/trait-stats/name/${name}`);
     const data = await response.json();
-    console.log(data); // add this line to log the data to the console
     return data;
 }
 
@@ -181,10 +180,10 @@ async function displayMetadata(ghost) {
             const traitStatData = await fetchTraitStatsDataByName(metadataValue);
             console.log(traitStatData);
             // Use traitStatData to extract count, stat, biome, and biome_modifier values
-            const count = traitStatData.count;
-            const stat = traitStatData.stat;
-            const biome = traitStatData.biome;
-            const biome_modifier = traitStatData.biome_modifier;
+            const count = traitStatData[0].count;
+            const stat = traitStatData[0].stat;
+            const biome = traitStatData[0].biome;
+            const biome_modifier = traitStatData[0].biome_modifier;
 
             const metadataHTML = `<p><strong>${prettyKey}:</strong><span>${metadataValue}</span></p>
                       <p>Count: ${count}<br>Stat: ${stat}<br>Biome: ${biome}<br>Biome Modifier: ${biome_modifier}</p>`;
