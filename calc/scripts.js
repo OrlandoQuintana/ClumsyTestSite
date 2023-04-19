@@ -167,6 +167,7 @@ async function fetchTraitStatsDataByName(name) {
     }
 
     return await response.json();
+    console.log(response);
 }
 
 
