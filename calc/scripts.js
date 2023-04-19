@@ -182,6 +182,7 @@ async function displayMetadata(ghost) {
 
             // Use traitStatData to extract count, stat, biome, and biome_modifier values
             const count = traitStatData.count;
+            console.log(count);
             const stat = traitStatData.stat;
             const biome = traitStatData.biome;
             const biome_modifier = traitStatData.biome_modifier;
