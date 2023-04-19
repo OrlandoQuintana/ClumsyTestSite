@@ -186,7 +186,15 @@ async function displayMetadata(ghost) {
             const biome_modifier = traitStatData[0].biome_modifier;
 
             const metadataHTML = `<p><strong>${prettyKey}:</strong><span>${metadataValue}</span></p>
-                      <p>Count: ${count}<br>Stat: ${stat}<br>Biome: ${biome}<br>Biome Modifier: ${biome_modifier}</p>`;
+            <div class="dropdown">
+              <button class="accordion">Show Details</button>
+              <div class="panel">
+                <p>Count: ${count}<br>Stat: ${stat}<br>Biome: ${biome}<br>Biome Modifier: ${biome_modifier}</p>
+              </div>
+            </div>`;
+
+
+
 
 
             if (metadataKeys.indexOf(key) < 5) {
@@ -252,6 +260,10 @@ function openWidePNG() {
 }
 
 
+function toggleMetadataDetails() {
+    const metadataDetails = document.querySelector(".metadata-details");
+    metadataDetails.style.display = metadataDetails.style.display === "none" ? "block" : "none";
+}
 
 
 async function onSearchButtonClick() {

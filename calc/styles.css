@@ -310,3 +310,28 @@ button:hover {
         order: 3;
     }
 }
+
+.dropdown .panel {
+    display: none;
+}
+
+.dropdown .accordion {
+    background-color: #7850FF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: ClumsyPixel;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.dropdown .accordion:hover {
+    background-color: #7850FF;
+}
+
+.dropdown .panel.show {
+    display: block;
+}
