@@ -142,8 +142,10 @@ async function fetchGhostMetadata(ghostId) {
 async function fetchTraitStatsDataByName(name) {
     const response = await fetch(`https://protected-everglades-83276.herokuapp.com/api/trait-stats/name/${name}`);
     const data = await response.json();
+    console.log(data); // add this line to log the data to the console
     return data;
 }
+
 
 async function displayMetadata(ghost) {
     const currentGhostId = ghost.id;
