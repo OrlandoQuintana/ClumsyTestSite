@@ -147,26 +147,32 @@ async function fetchTraitStatsDataByName(name) {
 
 async function displayMetadata(ghost) {
     const currentGhostId = ghost.id;
-    const ghostMetadata = await fetchGhostMetadata(currentGhostId);
+    const response = await fetch(`https://protected-everglades-83276.herokuapp.com/api/ghost-metadata/${currentGhostId}`);
 
-    if (ghostMetadata) {
-        const metadataLeft = document.getElementById('metadata-left');
-        const metadataCenter = document.getElementById('metadata-center');
-        const metadataRight = document.getElementById('metadata-right');
+    if (!response.ok) {
+        throw new Error('Failed to fetch ghost metadata');
+    }
 
-        const metadataKeys = [
-            'backdrop', 'background', 'backpack', 'blastoff', 'body',
-            'eyes', 'face', 'glasses', 'hands', 'hat',
-            'hideme', 'outfit', 'special', 'varatts'
-        ];
+    const ghostMetadata = await response.json();
+    const metadataLeft = document.getElementById('metadata-left');
+    const metadataCenter = document.getElementById('metadata-center');
+    const metadataRight = document.getElementById('metadata-right');
 
-        let metadataLeftHTML = '';
-        let metadataCenterHTML = '';
-        let metadataRightHTML = '';
+    const metadataKeys = [
+        'backdrop', 'background', 'backpack', 'blastoff', 'body',
+        'eyes', 'face', 'glasses', 'hands', 'hat',
+        'hideme', 'outfit', 'special', 'varatts'
+    ];
 
-        for (const key of metadataKeys) {
-            const metadataValue = key === 'varatts' ? (ghostMetadata[key] + 3) : ghostMetadata[key] || 'N/A';
-            const prettyKey = prettifyMetadataKey(key);
+    let metadataLeftHTML = '';
+    let metadataCenterHTML = '';
+    let metadataRightHTML = '';
+
+    for (const key of metadataKeys) {
+        const metadataValue = key === 'varatts' ? (ghostMetadata[key] + 3) : ghostMetadata[key] || 'N/A';
+        const prettyKey = prettifyMetadataKey(key);
+
+        if (metadataValue !== 'N/A') {
             const traitStatData = await fetchTraitStatsDataByName(metadataValue);
 
             // Use traitStatData to extract count, stat, biome, and biome_modifier values
@@ -185,12 +191,22 @@ async function displayMetadata(ghost) {
             } else {
                 metadataRightHTML += metadataHTML;
             }
-        }
+        } else {
+            const metadataHTML = `<p><strong>${prettyKey}:</strong><span>${metadataValue}</span></p>`;
 
-        metadataLeft.innerHTML = metadataLeftHTML;
-        metadataCenter.innerHTML = metadataCenterHTML;
-        metadataRight.innerHTML = metadataRightHTML;
+            if (metadataKeys.indexOf(key) < 5) {
+                metadataLeftHTML += metadataHTML;
+            } else if (metadataKeys.indexOf(key) < 10) {
+                metadataCenterHTML += metadataHTML;
+            } else {
+                metadataRightHTML += metadataHTML;
+            }
+        }
     }
+
+    metadataLeft.innerHTML = metadataLeftHTML;
+    metadataCenter.innerHTML = metadataCenterHTML;
+    metadataRight.innerHTML = metadataRightHTML;
 }
 
 
