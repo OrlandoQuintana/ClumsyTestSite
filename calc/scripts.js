@@ -199,7 +199,8 @@ async function displayMetadata(ghost) {
         const prettyKey = prettifyMetadataKey(key);
 
         if (metadataValue !== 'N/A') {
-            const traitStatData = await fetchTraitStatsDataByName(metadataValue);
+            const traitStatDataArray = await fetchTraitStatsDataByName(metadataValue);
+            const traitStatData = traitStatDataArray[0];
 
             // Use traitStatData to extract count, stat, biome, and biome_modifier values
             const count = traitStatData.count;
@@ -208,7 +209,7 @@ async function displayMetadata(ghost) {
             const biome_modifier = traitStatData.biome_modifier;
 
             const metadataHTML = `<p><strong>${prettyKey}:</strong><span>${metadataValue}</span></p>
-                              <p>Count: ${count}, Stat: ${stat}, Biome: ${biome}, Biome Modifier: ${biome_modifier}</p>`;
+                                  <p>Count: ${count}, Stat: ${stat}, Biome: ${biome}, Biome Modifier: ${biome_modifier}</p>`;
 
             if (metadataKeys.indexOf(key) < 5) {
                 metadataLeftHTML += metadataHTML;
