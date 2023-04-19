@@ -104,7 +104,7 @@ function displayGhost(ghost, svg) {
             const keyImage = keyImages[prettyKey];
             const imgHtml = keyImage ? `<img src="/calc/keyImages/${keyImage}">` : '';
 
-            if (key === 'name' || key === 'rarity_rank' || key === 'speed' || key === 'stamina' || key === 'smarts' || key === 'luck') {
+            if (key === 'name' || key === 'rarity_rank' || key === 'speed' || key === 'stamina' || key === 'smarts' || key === 'luck' || key === 'farming_length') {
                 statsLeftHTML += `<p><strong>${imgHtml}${prettyKey}:</strong><span>${statValue}</span></p>`;
                 if (key === 'speed') {
                     statsLeftHTML += `<p><strong>Total:</strong><span>${total}</span></p>`;
