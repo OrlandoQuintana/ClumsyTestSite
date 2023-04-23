@@ -187,17 +187,14 @@ async function displayMetadata(ghost) {
 
             const metadataHTML = `
                 <div class="metadata-item">
-                    <div class="metadata-text" onclick="toggleAccordion(this)">
+                    <div class="metadata-text ${metadataValue !== 'N/A' && validNames.includes(metadataValue) ? 'has-extra-stats' : ''}" onclick="toggleAccordion(this)">
                         <p><strong>${prettyKey}:</strong><span>${metadataValue}</span></p>
                     </div>
                     <div class="extra-stats" style="display: none;">
-                        <p>Stat: ${stat}<br>Boost: ${count}<br>Biome: ${biome}<br>Modifier: ${biome_modifier}</p>
+                        <p>Count: ${count}<br>Stat: ${stat}<br>Biome: ${biome}<br>Biome Modifier: ${biome_modifier}</p>
                     </div>
                 </div>
             `;
-
-
-
 
 
             if (metadataKeys.indexOf(key) < 5) {

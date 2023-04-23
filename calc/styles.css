@@ -339,3 +339,10 @@ button:hover {
     z-index: 1;
     width: 90%;
 }
+
+.has-extra-stats {
+    font-weight: bold;
+    color: #7850FF;
+    /* Change this to your desired font color */
+    cursor: pointer;
+}
