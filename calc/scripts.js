@@ -191,7 +191,7 @@ async function displayMetadata(ghost) {
                         <p><strong>${prettyKey}:</strong><span>${metadataValue}</span></p>
                     </div>
                     <div class="extra-stats" style="display: none;">
-                        <p><strong>Stat:<strong><span>${stat}<span><br>Boost: ${count}<br>Biome: ${biome}<br>Modifier: ${biome_modifier}</p>
+                        <p><strong>Stat: </strong><span>${stat}</span><br>Boost: ${count}<br>Biome: ${biome}<br>Modifier: ${biome_modifier}</p>
                     </div>
                 </div>
             `;
