@@ -5,8 +5,8 @@
     "quantity": 650,
     "percentage": "6.50%",
     "count": 1,
-    "stat": "smart",
-    "biome": "cyber district",
+    "stat": "Smarts",
+    "biome": "Cyber District",
     "biome_modifier": 1
   },
   {
@@ -15,8 +15,8 @@
     "quantity": 618,
     "percentage": "6.18%",
     "count": 3,
-    "stat": "luck",
-    "biome": "alien",
+    "stat": "Luck",
+    "biome": "Alien",
     "biome_modifier": 2
   },
   {
@@ -25,8 +25,8 @@
     "quantity": 605,
     "percentage": "6.05%",
     "count": 1,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -35,8 +35,8 @@
     "quantity": 599,
     "percentage": "5.99%",
     "count": 2,
-    "stat": "stamina",
-    "biome": "scorched earth",
+    "stat": "Stamina",
+    "biome": "Scorched Earth",
     "biome_modifier": 1
   },
   {
@@ -45,8 +45,8 @@
     "quantity": 563,
     "percentage": "5.63%",
     "count": 2,
-    "stat": "stamina",
-    "biome": "",
+    "stat": "Stamina",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -55,8 +55,8 @@
     "quantity": 550,
     "percentage": "5.50%",
     "count": 2,
-    "stat": "luck",
-    "biome": "meadows",
+    "stat": "Luck",
+    "biome": "Meadows",
     "biome_modifier": 1
   },
   {
@@ -65,8 +65,8 @@
     "quantity": 537,
     "percentage": "5.37%",
     "count": 2,
-    "stat": "luck",
-    "biome": "deadlands",
+    "stat": "Luck",
+    "biome": "Deadlands",
     "biome_modifier": 1
   },
   {
@@ -75,8 +75,8 @@
     "quantity": 533,
     "percentage": "5.33%",
     "count": 2,
-    "stat": "luck",
-    "biome": "twilight forest",
+    "stat": "Luck",
+    "biome": "Twilight Forest",
     "biome_modifier": 1
   },
   {
@@ -85,8 +85,8 @@
     "quantity": 531,
     "percentage": "5.31%",
     "count": 2,
-    "stat": "luck",
-    "biome": "alien,twilight forest",
+    "stat": "Luck",
+    "biome": "Alien,Twilight Forest",
     "biome_modifier": 1
   },
   {
@@ -95,8 +95,8 @@
     "quantity": 462,
     "percentage": "4.62%",
     "count": 3,
-    "stat": "luck",
-    "biome": "alien,twilight forest",
+    "stat": "Luck",
+    "biome": "Alien,Twilight Forest",
     "biome_modifier": 1
   },
   {
@@ -105,7 +105,7 @@
     "quantity": 15,
     "percentage": "0.15%",
     "count": 10,
-    "stat": "luck",
+    "stat": "Luck",
     "biome": "all",
     "biome_modifier": 3
   },
@@ -115,8 +115,8 @@
     "quantity": 488,
     "percentage": "4.88%",
     "count": 2,
-    "stat": "speed",
-    "biome": "deadlands",
+    "stat": "Speed",
+    "biome": "Deadlands",
     "biome_modifier": 1
   },
   {
@@ -125,8 +125,8 @@
     "quantity": 456,
     "percentage": "4.56%",
     "count": 2,
-    "stat": "speed",
-    "biome": "deadlands",
+    "stat": "Speed",
+    "biome": "Deadlands",
     "biome_modifier": 1
   },
   {
@@ -135,8 +135,8 @@
     "quantity": 452,
     "percentage": "4.52%",
     "count": 2,
-    "stat": "speed",
-    "biome": "meadows",
+    "stat": "Speed",
+    "biome": "Meadows",
     "biome_modifier": 1
   },
   {
@@ -145,7 +145,7 @@
     "quantity": 412,
     "percentage": "4.12%",
     "count": 4,
-    "stat": "speed",
+    "stat": "Speed",
     "biome": "all",
     "biome_modifier": 1
   },
@@ -155,8 +155,8 @@
     "quantity": 401,
     "percentage": "4.01%",
     "count": 2,
-    "stat": "stamina",
-    "biome": "meadows,tundra,deadlands,scorched earth",
+    "stat": "Stamina",
+    "biome": "Meadows,Tundra,Deadlands,Scorched Earth",
     "biome_modifier": 1
   },
   {
@@ -165,8 +165,8 @@
     "quantity": 399,
     "percentage": "3.99%",
     "count": 3,
-    "stat": "stamina",
-    "biome": "deadlands,meadows,dunes,tundra,scorched earth,",
+    "stat": "Stamina",
+    "biome": "Deadlands,Meadows,Dunes,Tundra,Scorched Earth,",
     "biome_modifier": 1
   },
   {
@@ -175,8 +175,8 @@
     "quantity": 383,
     "percentage": "3.83%",
     "count": 3,
-    "stat": "luck",
-    "biome": "twilight forest,meadows,tundra,toxic swamps",
+    "stat": "Luck",
+    "biome": "Twilight Forest,Meadows,Tundra,Toxic Swamps",
     "biome_modifier": 2
   },
   {
@@ -185,8 +185,8 @@
     "quantity": 381,
     "percentage": "3.81%",
     "count": 3,
-    "stat": "speed",
-    "biome": "meadows",
+    "stat": "Speed",
+    "biome": "Meadows",
     "biome_modifier": 1
   },
   {
@@ -195,8 +195,8 @@
     "quantity": 362,
     "percentage": "3.62%",
     "count": 3,
-    "stat": "luck",
-    "biome": "scorched earth,deadlands",
+    "stat": "Luck",
+    "biome": "Scorched Earth,Deadlands",
     "biome_modifier": 1
   },
   {
@@ -205,8 +205,8 @@
     "quantity": 358,
     "percentage": "3.58%",
     "count": 3,
-    "stat": "stamina",
-    "biome": "deadlands,toxic swamps,scorched earth,cyber district,twilight forest",
+    "stat": "Stamina",
+    "biome": "Deadlands,Toxic Swamps,Scorched Earth,Cyber District,Twilight Forest",
     "biome_modifier": 1
   },
   {
@@ -215,8 +215,8 @@
     "quantity": 348,
     "percentage": "3.48%",
     "count": 3,
-    "stat": "speed",
-    "biome": "twilight forest",
+    "stat": "Speed",
+    "biome": "Twilight Forest",
     "biome_modifier": 1
   },
   {
@@ -225,8 +225,8 @@
     "quantity": 330,
     "percentage": "3.30%",
     "count": 3,
-    "stat": "speed",
-    "biome": "meadows",
+    "stat": "Speed",
+    "biome": "Meadows",
     "biome_modifier": 1
   },
   {
@@ -235,8 +235,8 @@
     "quantity": 313,
     "percentage": "3.13%",
     "count": 3,
-    "stat": "speed",
-    "biome": "meadows",
+    "stat": "Speed",
+    "biome": "Meadows",
     "biome_modifier": 2
   },
   {
@@ -245,8 +245,8 @@
     "quantity": 286,
     "percentage": "2.86%",
     "count": 5,
-    "stat": "stamina",
-    "biome": "meadows,toxic swamps,deadlands,twilight forest",
+    "stat": "Stamina",
+    "biome": "Meadows,Toxic Swamps,Deadlands,Twilight Forest",
     "biome_modifier": 2
   },
   {
@@ -255,8 +255,8 @@
     "quantity": 273,
     "percentage": "2.73%",
     "count": 4,
-    "stat": "speed",
-    "biome": "twilight forest",
+    "stat": "Speed",
+    "biome": "Twilight Forest",
     "biome_modifier": 2
   },
   {
@@ -265,8 +265,8 @@
     "quantity": 210,
     "percentage": "2.10%",
     "count": 4,
-    "stat": "speed",
-    "biome": "deadlands",
+    "stat": "Speed",
+    "biome": "Deadlands",
     "biome_modifier": 2
   },
   {
@@ -275,8 +275,8 @@
     "quantity": 206,
     "percentage": "2.06%",
     "count": 4,
-    "stat": "speed",
-    "biome": "scorched earth",
+    "stat": "Speed",
+    "biome": "Scorched Earth",
     "biome_modifier": 2
   },
   {
@@ -285,8 +285,8 @@
     "quantity": 426,
     "percentage": "4.26%",
     "count": 1,
-    "stat": "stamina",
-    "biome": "",
+    "stat": "Stamina",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -295,8 +295,8 @@
     "quantity": 401,
     "percentage": "4.01%",
     "count": 1,
-    "stat": "speed",
-    "biome": "meadows",
+    "stat": "Speed",
+    "biome": "Meadows",
     "biome_modifier": 1
   },
   {
@@ -305,8 +305,8 @@
     "quantity": 379,
     "percentage": "3.79%",
     "count": 1,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -315,8 +315,8 @@
     "quantity": 373,
     "percentage": "3.73%",
     "count": 1,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -325,8 +325,8 @@
     "quantity": 372,
     "percentage": "3.72%",
     "count": 1,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -335,8 +335,8 @@
     "quantity": 370,
     "percentage": "3.70%",
     "count": 1,
-    "stat": "speed",
-    "biome": "deadlands",
+    "stat": "Speed",
+    "biome": "Deadlands",
     "biome_modifier": 1
   },
   {
@@ -345,8 +345,8 @@
     "quantity": 369,
     "percentage": "3.69%",
     "count": 1,
-    "stat": "smart",
-    "biome": "",
+    "stat": "Smarts",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -355,8 +355,8 @@
     "quantity": 367,
     "percentage": "3.67%",
     "count": 1,
-    "stat": "stamina",
-    "biome": "",
+    "stat": "Stamina",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -365,8 +365,8 @@
     "quantity": 367,
     "percentage": "3.67%",
     "count": 1,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -375,8 +375,8 @@
     "quantity": 365,
     "percentage": "3.65%",
     "count": 1,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -385,8 +385,8 @@
     "quantity": 364,
     "percentage": "3.64%",
     "count": 1,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -395,8 +395,8 @@
     "quantity": 357,
     "percentage": "3.57%",
     "count": 1,
-    "stat": "stamina",
-    "biome": "",
+    "stat": "Stamina",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -405,8 +405,8 @@
     "quantity": 356,
     "percentage": "3.56%",
     "count": 1,
-    "stat": "luck",
-    "biome": "twilight forest",
+    "stat": "Luck",
+    "biome": "Twilight Forest",
     "biome_modifier": 1
   },
   {
@@ -415,8 +415,8 @@
     "quantity": 354,
     "percentage": "3.54%",
     "count": 1,
-    "stat": "speed",
-    "biome": "dunes",
+    "stat": "Speed",
+    "biome": "Dunes",
     "biome_modifier": 1
   },
   {
@@ -425,8 +425,8 @@
     "quantity": 354,
     "percentage": "3.54%",
     "count": 1,
-    "stat": "stamina",
-    "biome": "toxic swamps",
+    "stat": "Stamina",
+    "biome": "Toxic Swamps",
     "biome_modifier": 1
   },
   {
@@ -435,8 +435,8 @@
     "quantity": 353,
     "percentage": "3.53%",
     "count": 1,
-    "stat": "smart",
-    "biome": "",
+    "stat": "Smarts",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -445,8 +445,8 @@
     "quantity": 351,
     "percentage": "3.51%",
     "count": 1,
-    "stat": "smart",
-    "biome": "",
+    "stat": "Smarts",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -455,8 +455,8 @@
     "quantity": 348,
     "percentage": "3.48%",
     "count": 1,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -465,8 +465,8 @@
     "quantity": 348,
     "percentage": "3.48%",
     "count": 1,
-    "stat": "smart",
-    "biome": "",
+    "stat": "Smarts",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -475,8 +475,8 @@
     "quantity": 348,
     "percentage": "3.48%",
     "count": 1,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -485,8 +485,8 @@
     "quantity": 347,
     "percentage": "3.47%",
     "count": 1,
-    "stat": "smart",
-    "biome": "",
+    "stat": "Smarts",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -495,8 +495,8 @@
     "quantity": 333,
     "percentage": "3.33%",
     "count": 1,
-    "stat": "stamina",
-    "biome": "",
+    "stat": "Stamina",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -505,8 +505,8 @@
     "quantity": 327,
     "percentage": "3.27%",
     "count": 1,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -515,8 +515,8 @@
     "quantity": 315,
     "percentage": "3.15%",
     "count": 1,
-    "stat": "stamina",
-    "biome": "",
+    "stat": "Stamina",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -525,8 +525,8 @@
     "quantity": 312,
     "percentage": "3.12%",
     "count": 1,
-    "stat": "smart",
-    "biome": "cyber district",
+    "stat": "Smarts",
+    "biome": "Cyber District",
     "biome_modifier": 1
   },
   {
@@ -535,8 +535,8 @@
     "quantity": 309,
     "percentage": "3.09%",
     "count": 1,
-    "stat": "speed",
-    "biome": "",
+    "stat": "Speed",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -545,8 +545,8 @@
     "quantity": 286,
     "percentage": "2.86%",
     "count": 2,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -555,8 +555,8 @@
     "quantity": 274,
     "percentage": "2.74%",
     "count": 2,
-    "stat": "stamina",
-    "biome": "",
+    "stat": "Stamina",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -565,8 +565,8 @@
     "quantity": 175,
     "percentage": "1.75%",
     "count": 3,
-    "stat": "luck",
-    "biome": "meadows",
+    "stat": "Luck",
+    "biome": "Meadows",
     "biome_modifier": 1
   },
   {
@@ -575,8 +575,8 @@
     "quantity": 426,
     "percentage": "4.26%",
     "count": 1,
-    "stat": "speed",
-    "biome": "",
+    "stat": "Speed",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -585,8 +585,8 @@
     "quantity": 410,
     "percentage": "4.10%",
     "count": 1,
-    "stat": "stamina",
-    "biome": "meadows",
+    "stat": "Stamina",
+    "biome": "Meadows",
     "biome_modifier": 0
   },
   {
@@ -595,8 +595,8 @@
     "quantity": 389,
     "percentage": "3.89%",
     "count": 1,
-    "stat": "stamina",
-    "biome": "toxic swamps",
+    "stat": "Stamina",
+    "biome": "Toxic Swamps",
     "biome_modifier": 2
   },
   {
@@ -605,8 +605,8 @@
     "quantity": 383,
     "percentage": "3.83%",
     "count": 1,
-    "stat": "smart",
-    "biome": "",
+    "stat": "Smarts",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -615,8 +615,8 @@
     "quantity": 381,
     "percentage": "3.81%",
     "count": 1,
-    "stat": "stamina",
-    "biome": "",
+    "stat": "Stamina",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -625,8 +625,8 @@
     "quantity": 381,
     "percentage": "3.81%",
     "count": 1,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -635,8 +635,8 @@
     "quantity": 367,
     "percentage": "3.67%",
     "count": 1,
-    "stat": "stamina",
-    "biome": "",
+    "stat": "Stamina",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -645,8 +645,8 @@
     "quantity": 359,
     "percentage": "3.59%",
     "count": 1,
-    "stat": "stamina",
-    "biome": "toxic swamps",
+    "stat": "Stamina",
+    "biome": "Toxic Swamps",
     "biome_modifier": 2
   },
   {
@@ -655,8 +655,8 @@
     "quantity": 349,
     "percentage": "3.49%",
     "count": 1,
-    "stat": "smart",
-    "biome": "",
+    "stat": "Smarts",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -665,8 +665,8 @@
     "quantity": 342,
     "percentage": "3.42%",
     "count": 1,
-    "stat": "stamina",
-    "biome": "",
+    "stat": "Stamina",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -675,8 +675,8 @@
     "quantity": 316,
     "percentage": "3.16%",
     "count": 1,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -685,8 +685,8 @@
     "quantity": 296,
     "percentage": "2.96%",
     "count": 2,
-    "stat": "stamina",
-    "biome": "",
+    "stat": "Stamina",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -695,8 +695,8 @@
     "quantity": 274,
     "percentage": "2.74%",
     "count": 2,
-    "stat": "stamina",
-    "biome": "",
+    "stat": "Stamina",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -705,8 +705,8 @@
     "quantity": 253,
     "percentage": "2.53%",
     "count": 2,
-    "stat": "stamina",
-    "biome": "dunes",
+    "stat": "Stamina",
+    "biome": "Dunes",
     "biome_modifier": 1
   },
   {
@@ -715,8 +715,8 @@
     "quantity": 235,
     "percentage": "2.35%",
     "count": 2,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -725,8 +725,8 @@
     "quantity": 599,
     "percentage": "5.99%",
     "count": 1,
-    "stat": "stamina",
-    "biome": "scorched earth",
+    "stat": "Stamina",
+    "biome": "Scorched Earth",
     "biome_modifier": 1
   },
   {
@@ -735,8 +735,8 @@
     "quantity": 581,
     "percentage": "5.81%",
     "count": 1,
-    "stat": "smart",
-    "biome": "cyber district",
+    "stat": "Smarts",
+    "biome": "Cyber District",
     "biome_modifier": 1
   },
   {
@@ -745,8 +745,8 @@
     "quantity": 551,
     "percentage": "5.51%",
     "count": 1,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -755,8 +755,8 @@
     "quantity": 462,
     "percentage": "4.62%",
     "count": 1,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -765,8 +765,8 @@
     "quantity": 455,
     "percentage": "4.55%",
     "count": 1,
-    "stat": "smart",
-    "biome": "cyber district",
+    "stat": "Smarts",
+    "biome": "Cyber District",
     "biome_modifier": 1
   },
   {
@@ -775,8 +775,8 @@
     "quantity": 452,
     "percentage": "4.52%",
     "count": 1,
-    "stat": "smart",
-    "biome": "cyber district",
+    "stat": "Smarts",
+    "biome": "Cyber District",
     "biome_modifier": 1
   },
   {
@@ -785,8 +785,8 @@
     "quantity": 444,
     "percentage": "4.44%",
     "count": 1,
-    "stat": "smart",
-    "biome": "twilight forest",
+    "stat": "Smarts",
+    "biome": "Twilight Forest",
     "biome_modifier": 1
   },
   {
@@ -795,8 +795,8 @@
     "quantity": 433,
     "percentage": "4.33%",
     "count": 1,
-    "stat": "luck",
-    "biome": "dunes",
+    "stat": "Luck",
+    "biome": "Dunes",
     "biome_modifier": 1
   },
   {
@@ -805,8 +805,8 @@
     "quantity": 372,
     "percentage": "3.72%",
     "count": 1,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -815,8 +815,8 @@
     "quantity": 367,
     "percentage": "3.67%",
     "count": 1,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -825,8 +825,8 @@
     "quantity": 304,
     "percentage": "3.04%",
     "count": 1,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -835,8 +835,8 @@
     "quantity": 294,
     "percentage": "2.94%",
     "count": 2,
-    "stat": "smart",
-    "biome": "",
+    "stat": "Smarts",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -845,7 +845,7 @@
     "quantity": 194,
     "percentage": "1.94%",
     "count": 3,
-    "stat": "stamina",
+    "stat": "Stamina",
     "biome": "ocean",
     "biome_modifier": 1
   },
@@ -855,8 +855,8 @@
     "quantity": 145,
     "percentage": "1.45%",
     "count": 3,
-    "stat": "stamina",
-    "biome": "",
+    "stat": "Stamina",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -865,8 +865,8 @@
     "quantity": 369,
     "percentage": "3.69%",
     "count": 1,
-    "stat": "smart",
-    "biome": "cyber district",
+    "stat": "Smarts",
+    "biome": "Cyber District",
     "biome_modifier": 1
   },
   {
@@ -875,8 +875,8 @@
     "quantity": 355,
     "percentage": "3.55%",
     "count": 1,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -885,8 +885,8 @@
     "quantity": 342,
     "percentage": "3.42%",
     "count": 1,
-    "stat": "stamina",
-    "biome": "",
+    "stat": "Stamina",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -895,8 +895,8 @@
     "quantity": 330,
     "percentage": "3.30%",
     "count": 1,
-    "stat": "stamina",
-    "biome": "deadlands",
+    "stat": "Stamina",
+    "biome": "Deadlands",
     "biome_modifier": 1
   },
   {
@@ -905,8 +905,8 @@
     "quantity": 323,
     "percentage": "3.23%",
     "count": 1,
-    "stat": "stamina",
-    "biome": "",
+    "stat": "Stamina",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -915,8 +915,8 @@
     "quantity": 321,
     "percentage": "3.21%",
     "count": 1,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -925,8 +925,8 @@
     "quantity": 309,
     "percentage": "3.09%",
     "count": 2,
-    "stat": "stamina",
-    "biome": "tundra",
+    "stat": "Stamina",
+    "biome": "Tundra",
     "biome_modifier": 1
   },
   {
@@ -935,8 +935,8 @@
     "quantity": 296,
     "percentage": "2.96%",
     "count": 2,
-    "stat": "stamina",
-    "biome": "toxic swamps",
+    "stat": "Stamina",
+    "biome": "Toxic Swamps",
     "biome_modifier": 1
   },
   {
@@ -945,8 +945,8 @@
     "quantity": 278,
     "percentage": "2.78%",
     "count": 2,
-    "stat": "speed",
-    "biome": "cyber district",
+    "stat": "Speed",
+    "biome": "Cyber District",
     "biome_modifier": 1
   },
   {
@@ -955,8 +955,8 @@
     "quantity": 271,
     "percentage": "2.71%",
     "count": 2,
-    "stat": "stamina",
-    "biome": "dunes",
+    "stat": "Stamina",
+    "biome": "Dunes",
     "biome_modifier": 1
   },
   {
@@ -965,8 +965,8 @@
     "quantity": 270,
     "percentage": "2.70%",
     "count": 3,
-    "stat": "luck",
-    "biome": "twilight forests",
+    "stat": "Luck",
+    "biome": "Twilight Forests",
     "biome_modifier": 1
   },
   {
@@ -975,8 +975,8 @@
     "quantity": 270,
     "percentage": "2.70%",
     "count": 3,
-    "stat": "smart",
-    "biome": "",
+    "stat": "Smarts",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -985,8 +985,8 @@
     "quantity": 267,
     "percentage": "2.67%",
     "count": 3,
-    "stat": "speed",
-    "biome": "",
+    "stat": "Speed",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -995,8 +995,8 @@
     "quantity": 255,
     "percentage": "2.55%",
     "count": 3,
-    "stat": "smart",
-    "biome": "cyber district",
+    "stat": "Smarts",
+    "biome": "Cyber District",
     "biome_modifier": 1
   },
   {
@@ -1005,8 +1005,8 @@
     "quantity": 253,
     "percentage": "2.53%",
     "count": 3,
-    "stat": "stamina",
-    "biome": "meadows,tundra,dunes",
+    "stat": "Stamina",
+    "biome": "Meadows,Tundra,Dunes",
     "biome_modifier": 1
   },
   {
@@ -1015,7 +1015,7 @@
     "quantity": 252,
     "percentage": "2.52%",
     "count": 3,
-    "stat": "luck",
+    "stat": "Luck",
     "biome": "toxic swamp",
     "biome_modifier": 1
   },
@@ -1025,8 +1025,8 @@
     "quantity": 250,
     "percentage": "2.50%",
     "count": 3,
-    "stat": "stamina",
-    "biome": "dunes",
+    "stat": "Stamina",
+    "biome": "Dunes",
     "biome_modifier": 1
   },
   {
@@ -1035,8 +1035,8 @@
     "quantity": 245,
     "percentage": "2.45%",
     "count": 3,
-    "stat": "stamina",
-    "biome": "alien",
+    "stat": "Stamina",
+    "biome": "Alien",
     "biome_modifier": 1
   },
   {
@@ -1045,8 +1045,8 @@
     "quantity": 237,
     "percentage": "2.37%",
     "count": 3,
-    "stat": "luck",
-    "biome": "meadows",
+    "stat": "Luck",
+    "biome": "Meadows",
     "biome_modifier": 2
   },
   {
@@ -1055,8 +1055,8 @@
     "quantity": 236,
     "percentage": "2.36%",
     "count": 3,
-    "stat": "luck",
-    "biome": "twilight forest",
+    "stat": "Luck",
+    "biome": "Twilight Forest",
     "biome_modifier": 1
   },
   {
@@ -1065,8 +1065,8 @@
     "quantity": 218,
     "percentage": "2.18%",
     "count": 3,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -1075,7 +1075,7 @@
     "quantity": 142,
     "percentage": "1.42%",
     "count": 1,
-    "stat": "stamina",
+    "stat": "Stamina",
     "biome": "ocean",
     "biome_modifier": 1
   },
@@ -1085,8 +1085,8 @@
     "quantity": 137,
     "percentage": "1.37%",
     "count": 1,
-    "stat": "luck",
-    "biome": "alien",
+    "stat": "Luck",
+    "biome": "Alien",
     "biome_modifier": 1
   },
   {
@@ -1095,8 +1095,8 @@
     "quantity": 136,
     "percentage": "1.36%",
     "count": 1,
-    "stat": "smart",
-    "biome": "cyber district",
+    "stat": "Smarts",
+    "biome": "Cyber District",
     "biome_modifier": 1
   },
   {
@@ -1105,8 +1105,8 @@
     "quantity": 133,
     "percentage": "1.33%",
     "count": 1,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -1115,8 +1115,8 @@
     "quantity": 130,
     "percentage": "1.30%",
     "count": 1,
-    "stat": "smart",
-    "biome": "",
+    "stat": "Smarts",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -1125,8 +1125,8 @@
     "quantity": 130,
     "percentage": "1.30%",
     "count": 1,
-    "stat": "smart",
-    "biome": "",
+    "stat": "Smarts",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -1135,8 +1135,8 @@
     "quantity": 128,
     "percentage": "1.28%",
     "count": 1,
-    "stat": "luck",
-    "biome": "meadows",
+    "stat": "Luck",
+    "biome": "Meadows",
     "biome_modifier": 1
   },
   {
@@ -1145,8 +1145,8 @@
     "quantity": 127,
     "percentage": "1.27%",
     "count": 1,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -1155,8 +1155,8 @@
     "quantity": 127,
     "percentage": "1.27%",
     "count": 1,
-    "stat": "smart",
-    "biome": "",
+    "stat": "Smarts",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -1165,8 +1165,8 @@
     "quantity": 126,
     "percentage": "1.26%",
     "count": 1,
-    "stat": "smart",
-    "biome": "meadows",
+    "stat": "Smarts",
+    "biome": "Meadows",
     "biome_modifier": 1
   },
   {
@@ -1175,8 +1175,8 @@
     "quantity": 126,
     "percentage": "1.26%",
     "count": 1,
-    "stat": "stamina",
-    "biome": "cyber district",
+    "stat": "Stamina",
+    "biome": "Cyber District",
     "biome_modifier": 1
   },
   {
@@ -1185,8 +1185,8 @@
     "quantity": 122,
     "percentage": "1.22%",
     "count": 2,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -1195,8 +1195,8 @@
     "quantity": 121,
     "percentage": "1.21%",
     "count": 2,
-    "stat": "speed",
-    "biome": "alien",
+    "stat": "Speed",
+    "biome": "Alien",
     "biome_modifier": 1
   },
   {
@@ -1205,8 +1205,8 @@
     "quantity": 121,
     "percentage": "1.21%",
     "count": 2,
-    "stat": "speed",
-    "biome": "",
+    "stat": "Speed",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -1215,8 +1215,8 @@
     "quantity": 117,
     "percentage": "1.17%",
     "count": 2,
-    "stat": "speed",
-    "biome": "deadlands",
+    "stat": "Speed",
+    "biome": "Deadlands",
     "biome_modifier": 1
   },
   {
@@ -1225,8 +1225,8 @@
     "quantity": 117,
     "percentage": "1.17%",
     "count": 2,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -1235,7 +1235,7 @@
     "quantity": 115,
     "percentage": "1.15%",
     "count": 2,
-    "stat": "smart",
+    "stat": "Smarts",
     "biome": "ocean",
     "biome_modifier": 1
   },
@@ -1245,8 +1245,8 @@
     "quantity": 112,
     "percentage": "1.12%",
     "count": 2,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -1255,8 +1255,8 @@
     "quantity": 111,
     "percentage": "1.11%",
     "count": 2,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -1265,7 +1265,7 @@
     "quantity": 110,
     "percentage": "1.10%",
     "count": 2,
-    "stat": "smart",
+    "stat": "Smarts",
     "biome": "ocean",
     "biome_modifier": 1
   },
@@ -1275,8 +1275,8 @@
     "quantity": 109,
     "percentage": "1.09%",
     "count": 2,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -1285,8 +1285,8 @@
     "quantity": 107,
     "percentage": "1.07%",
     "count": 2,
-    "stat": "luck",
-    "biome": "toxic swamps",
+    "stat": "Luck",
+    "biome": "Toxic Swamps",
     "biome_modifier": 1
   },
   {
@@ -1295,8 +1295,8 @@
     "quantity": 107,
     "percentage": "1.07%",
     "count": 2,
-    "stat": "smart",
-    "biome": "scorched earth",
+    "stat": "Smarts",
+    "biome": "Scorched Earth",
     "biome_modifier": 1
   },
   {
@@ -1305,8 +1305,8 @@
     "quantity": 106,
     "percentage": "1.06%",
     "count": 2,
-    "stat": "speed",
-    "biome": "twilight forest",
+    "stat": "Speed",
+    "biome": "Twilight Forest",
     "biome_modifier": 1
   },
   {
@@ -1315,8 +1315,8 @@
     "quantity": 105,
     "percentage": "1.05%",
     "count": 2,
-    "stat": "speed",
-    "biome": "meadows",
+    "stat": "Speed",
+    "biome": "Meadows",
     "biome_modifier": 1
   },
   {
@@ -1325,8 +1325,8 @@
     "quantity": 105,
     "percentage": "1.05%",
     "count": 2,
-    "stat": "speed",
-    "biome": "cyber district",
+    "stat": "Speed",
+    "biome": "Cyber District",
     "biome_modifier": 1
   },
   {
@@ -1335,8 +1335,8 @@
     "quantity": 104,
     "percentage": "1.04%",
     "count": 2,
-    "stat": "luck",
-    "biome": "dunes",
+    "stat": "Luck",
+    "biome": "Dunes",
     "biome_modifier": 1
   },
   {
@@ -1345,8 +1345,8 @@
     "quantity": 104,
     "percentage": "1.04%",
     "count": 2,
-    "stat": "stamina",
-    "biome": "cyber district",
+    "stat": "Stamina",
+    "biome": "Cyber District",
     "biome_modifier": 1
   },
   {
@@ -1355,8 +1355,8 @@
     "quantity": 103,
     "percentage": "1.03%",
     "count": 2,
-    "stat": "stamina",
-    "biome": "meadows",
+    "stat": "Stamina",
+    "biome": "Meadows",
     "biome_modifier": 1
   },
   {
@@ -1365,7 +1365,7 @@
     "quantity": 102,
     "percentage": "1.02%",
     "count": 2,
-    "stat": "stamina",
+    "stat": "Stamina",
     "biome": "ocean",
     "biome_modifier": 1
   },
@@ -1375,8 +1375,8 @@
     "quantity": 100,
     "percentage": "1.00%",
     "count": 2,
-    "stat": "smart",
-    "biome": "cyber district",
+    "stat": "Smarts",
+    "biome": "Cyber District",
     "biome_modifier": 1
   },
   {
@@ -1385,8 +1385,8 @@
     "quantity": 100,
     "percentage": "1.00%",
     "count": 2,
-    "stat": "luck",
-    "biome": "twilight forest",
+    "stat": "Luck",
+    "biome": "Twilight Forest",
     "biome_modifier": 1
   },
   {
@@ -1395,8 +1395,8 @@
     "quantity": 100,
     "percentage": "1.00%",
     "count": 2,
-    "stat": "luck",
-    "biome": "tundra",
+    "stat": "Luck",
+    "biome": "Tundra",
     "biome_modifier": 1
   },
   {
@@ -1405,8 +1405,8 @@
     "quantity": 98,
     "percentage": "0.98%",
     "count": 3,
-    "stat": "speed",
-    "biome": "meadows",
+    "stat": "Speed",
+    "biome": "Meadows",
     "biome_modifier": 1
   },
   {
@@ -1415,8 +1415,8 @@
     "quantity": 98,
     "percentage": "0.98%",
     "count": 3,
-    "stat": "stamina",
-    "biome": "toxic swamps",
+    "stat": "Stamina",
+    "biome": "Toxic Swamps",
     "biome_modifier": 1
   },
   {
@@ -1425,8 +1425,8 @@
     "quantity": 98,
     "percentage": "0.98%",
     "count": 3,
-    "stat": "speed",
-    "biome": "tundra",
+    "stat": "Speed",
+    "biome": "Tundra",
     "biome_modifier": 1
   },
   {
@@ -1435,8 +1435,8 @@
     "quantity": 98,
     "percentage": "0.98%",
     "count": 3,
-    "stat": "speed",
-    "biome": "toxic swamps,meadows,deadlands,twilight forest,alien",
+    "stat": "Speed",
+    "biome": "Toxic Swamps,Meadows,Deadlands,Twilight Forest,Alien",
     "biome_modifier": 2
   },
   {
@@ -1445,8 +1445,8 @@
     "quantity": 97,
     "percentage": "0.97%",
     "count": 3,
-    "stat": "smart",
-    "biome": "cyber district",
+    "stat": "Smarts",
+    "biome": "Cyber District",
     "biome_modifier": 1
   },
   {
@@ -1455,8 +1455,8 @@
     "quantity": 93,
     "percentage": "0.93%",
     "count": 3,
-    "stat": "luck",
-    "biome": "twilight forest",
+    "stat": "Luck",
+    "biome": "Twilight Forest",
     "biome_modifier": 1
   },
   {
@@ -1465,8 +1465,8 @@
     "quantity": 93,
     "percentage": "0.93%",
     "count": 3,
-    "stat": "luck",
-    "biome": "dunes",
+    "stat": "Luck",
+    "biome": "Dunes",
     "biome_modifier": 1
   },
   {
@@ -1475,8 +1475,8 @@
     "quantity": 92,
     "percentage": "0.92%",
     "count": 3,
-    "stat": "smart",
-    "biome": "cyber district",
+    "stat": "Smarts",
+    "biome": "Cyber District",
     "biome_modifier": 1
   },
   {
@@ -1485,7 +1485,7 @@
     "quantity": 87,
     "percentage": "0.87%",
     "count": 4,
-    "stat": "smart",
+    "stat": "Smarts",
     "biome": "ocean",
     "biome_modifier": 2
   },
@@ -1495,8 +1495,8 @@
     "quantity": 85,
     "percentage": "0.85%",
     "count": 4,
-    "stat": "smart",
-    "biome": "cyber district",
+    "stat": "Smarts",
+    "biome": "Cyber District",
     "biome_modifier": 2
   },
   {
@@ -1505,8 +1505,8 @@
     "quantity": 85,
     "percentage": "0.85%",
     "count": 4,
-    "stat": "luck",
-    "biome": "cyber district",
+    "stat": "Luck",
+    "biome": "Cyber District",
     "biome_modifier": 2
   },
   {
@@ -1515,8 +1515,8 @@
     "quantity": 83,
     "percentage": "0.83%",
     "count": 4,
-    "stat": "speed",
-    "biome": "alien",
+    "stat": "Speed",
+    "biome": "Alien",
     "biome_modifier": 2
   },
   {
@@ -1525,8 +1525,8 @@
     "quantity": 83,
     "percentage": "0.83%",
     "count": 4,
-    "stat": "speed",
-    "biome": "scorched earth",
+    "stat": "Speed",
+    "biome": "Scorched Earth",
     "biome_modifier": 2
   },
   {
@@ -1535,8 +1535,8 @@
     "quantity": 82,
     "percentage": "0.82%",
     "count": 4,
-    "stat": "speed",
-    "biome": "twilight forest",
+    "stat": "Speed",
+    "biome": "Twilight Forest",
     "biome_modifier": 2
   },
   {
@@ -1545,7 +1545,7 @@
     "quantity": 81,
     "percentage": "0.81%",
     "count": 4,
-    "stat": "luck",
+    "stat": "Luck",
     "biome": "ocean",
     "biome_modifier": 2
   },
@@ -1555,8 +1555,8 @@
     "quantity": 79,
     "percentage": "0.79%",
     "count": 4,
-    "stat": "luck",
-    "biome": "dunes",
+    "stat": "Luck",
+    "biome": "Dunes",
     "biome_modifier": 2
   },
   {
@@ -1565,8 +1565,8 @@
     "quantity": 78,
     "percentage": "0.78%",
     "count": 4,
-    "stat": "smart",
-    "biome": "twilight forest",
+    "stat": "Smarts",
+    "biome": "Twilight Forest",
     "biome_modifier": 2
   },
   {
@@ -1575,8 +1575,8 @@
     "quantity": 77,
     "percentage": "0.77%",
     "count": 4,
-    "stat": "luck",
-    "biome": "meadows",
+    "stat": "Luck",
+    "biome": "Meadows",
     "biome_modifier": 2
   },
   {
@@ -1585,8 +1585,8 @@
     "quantity": 77,
     "percentage": "0.77%",
     "count": 4,
-    "stat": "luck",
-    "biome": "cyber district",
+    "stat": "Luck",
+    "biome": "Cyber District",
     "biome_modifier": 2
   },
   {
@@ -1595,8 +1595,8 @@
     "quantity": 74,
     "percentage": "0.74%",
     "count": 4,
-    "stat": "stamina",
-    "biome": "meadows",
+    "stat": "Stamina",
+    "biome": "Meadows",
     "biome_modifier": 1
   },
   {
@@ -1605,8 +1605,8 @@
     "quantity": 68,
     "percentage": "0.68%",
     "count": 5,
-    "stat": "smart",
-    "biome": "twilight forest",
+    "stat": "Smarts",
+    "biome": "Twilight Forest",
     "biome_modifier": 3
   },
   {
@@ -1615,8 +1615,8 @@
     "quantity": 66,
     "percentage": "0.66%",
     "count": 5,
-    "stat": "speed",
-    "biome": "meadows",
+    "stat": "Speed",
+    "biome": "Meadows",
     "biome_modifier": 3
   },
   {
@@ -1625,7 +1625,7 @@
     "quantity": 64,
     "percentage": "0.64%",
     "count": 5,
-    "stat": "smart",
+    "stat": "Smarts",
     "biome": "all",
     "biome_modifier": 3
   },
@@ -1635,8 +1635,8 @@
     "quantity": 60,
     "percentage": "0.60%",
     "count": 5,
-    "stat": "smart",
-    "biome": "cyber district",
+    "stat": "Smarts",
+    "biome": "Cyber District",
     "biome_modifier": 3
   },
   {
@@ -1645,8 +1645,8 @@
     "quantity": 58,
     "percentage": "0.58%",
     "count": 5,
-    "stat": "luck",
-    "biome": "meadows",
+    "stat": "Luck",
+    "biome": "Meadows",
     "biome_modifier": 3
   },
   {
@@ -1655,8 +1655,8 @@
     "quantity": 53,
     "percentage": "0.53%",
     "count": 5,
-    "stat": "luck",
-    "biome": "meadows",
+    "stat": "Luck",
+    "biome": "Meadows",
     "biome_modifier": 3
   },
   {
@@ -1665,8 +1665,8 @@
     "quantity": 50,
     "percentage": "0.50%",
     "count": 5,
-    "stat": "stamina",
-    "biome": "meadows",
+    "stat": "Stamina",
+    "biome": "Meadows",
     "biome_modifier": 3
   },
   {
@@ -1675,8 +1675,8 @@
     "quantity": 29,
     "percentage": "0.29%",
     "count": 6,
-    "stat": "speed",
-    "biome": "deadlands",
+    "stat": "Speed",
+    "biome": "Deadlands",
     "biome_modifier": 3
   },
   {
@@ -1685,8 +1685,8 @@
     "quantity": 24,
     "percentage": "0.24%",
     "count": 6,
-    "stat": "stamina",
-    "biome": "tundra",
+    "stat": "Stamina",
+    "biome": "Tundra",
     "biome_modifier": 3
   },
   {
@@ -1695,8 +1695,8 @@
     "quantity": 350,
     "percentage": "3.50%",
     "count": 1,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -1705,8 +1705,8 @@
     "quantity": 321,
     "percentage": "3.21%",
     "count": 1,
-    "stat": "stamina",
-    "biome": "dunes",
+    "stat": "Stamina",
+    "biome": "Dunes",
     "biome_modifier": 1
   },
   {
@@ -1715,8 +1715,8 @@
     "quantity": 321,
     "percentage": "3.21%",
     "count": 1,
-    "stat": "smart",
-    "biome": "",
+    "stat": "Smarts",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -1725,8 +1725,8 @@
     "quantity": 314,
     "percentage": "3.14%",
     "count": 1,
-    "stat": "smart",
-    "biome": "cyber district",
+    "stat": "Smarts",
+    "biome": "Cyber District",
     "biome_modifier": 1
   },
   {
@@ -1735,8 +1735,8 @@
     "quantity": 302,
     "percentage": "3.02%",
     "count": 1,
-    "stat": "stamina",
-    "biome": "",
+    "stat": "Stamina",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -1745,7 +1745,7 @@
     "quantity": 292,
     "percentage": "2.92%",
     "count": 1,
-    "stat": "luck",
+    "stat": "Luck",
     "biome": "ocean",
     "biome_modifier": 1
   },
@@ -1755,8 +1755,8 @@
     "quantity": 285,
     "percentage": "2.85%",
     "count": 2,
-    "stat": "speed",
-    "biome": "cyber district",
+    "stat": "Speed",
+    "biome": "Cyber District",
     "biome_modifier": 1
   },
   {
@@ -1765,8 +1765,8 @@
     "quantity": 282,
     "percentage": "2.82%",
     "count": 2,
-    "stat": "luck",
-    "biome": "meadows",
+    "stat": "Luck",
+    "biome": "Meadows",
     "biome_modifier": 1
   },
   {
@@ -1775,8 +1775,8 @@
     "quantity": 282,
     "percentage": "2.82%",
     "count": 2,
-    "stat": "smart",
-    "biome": "",
+    "stat": "Smarts",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -1785,8 +1785,8 @@
     "quantity": 261,
     "percentage": "2.61%",
     "count": 2,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -1795,8 +1795,8 @@
     "quantity": 256,
     "percentage": "2.56%",
     "count": 2,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -1805,8 +1805,8 @@
     "quantity": 253,
     "percentage": "2.53%",
     "count": 2,
-    "stat": "stamina",
-    "biome": "deadlands",
+    "stat": "Stamina",
+    "biome": "Deadlands",
     "biome_modifier": 1
   },
   {
@@ -1815,8 +1815,8 @@
     "quantity": 243,
     "percentage": "2.43%",
     "count": 2,
-    "stat": "smart",
-    "biome": "",
+    "stat": "Smarts",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -1825,8 +1825,8 @@
     "quantity": 238,
     "percentage": "2.38%",
     "count": 2,
-    "stat": "stamina",
-    "biome": "toxic swamps",
+    "stat": "Stamina",
+    "biome": "Toxic Swamps",
     "biome_modifier": 1
   },
   {
@@ -1835,8 +1835,8 @@
     "quantity": 200,
     "percentage": "2.00%",
     "count": 3,
-    "stat": "speed",
-    "biome": "cyber district",
+    "stat": "Speed",
+    "biome": "Cyber District",
     "biome_modifier": 1
   },
   {
@@ -1845,8 +1845,8 @@
     "quantity": 196,
     "percentage": "1.96%",
     "count": 3,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -1855,8 +1855,8 @@
     "quantity": 189,
     "percentage": "1.89%",
     "count": 3,
-    "stat": "luck",
-    "biome": "",
+    "stat": "Luck",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -1865,8 +1865,8 @@
     "quantity": 168,
     "percentage": "1.68%",
     "count": 3,
-    "stat": "smart",
-    "biome": "",
+    "stat": "Smarts",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -1875,7 +1875,7 @@
     "quantity": 167,
     "percentage": "1.67%",
     "count": 3,
-    "stat": "luck",
+    "stat": "Luck",
     "biome": "ocean",
     "biome_modifier": 2
   },
@@ -1885,8 +1885,8 @@
     "quantity": 156,
     "percentage": "1.56%",
     "count": 3,
-    "stat": "stamina",
-    "biome": "deadlands",
+    "stat": "Stamina",
+    "biome": "Deadlands",
     "biome_modifier": 3
   },
   {
@@ -1895,8 +1895,8 @@
     "quantity": 88,
     "percentage": "0.88%",
     "count": 4,
-    "stat": "smart",
-    "biome": "cyber district",
+    "stat": "Smarts",
+    "biome": "Cyber District",
     "biome_modifier": 3
   },
   {
@@ -1905,8 +1905,8 @@
     "quantity": 87,
     "percentage": "0.87%",
     "count": 4,
-    "stat": "speed",
-    "biome": "deadlands",
+    "stat": "Speed",
+    "biome": "Deadlands",
     "biome_modifier": 3
   },
   {
@@ -1915,8 +1915,8 @@
     "quantity": 79,
     "percentage": "0.79%",
     "count": 5,
-    "stat": "smart",
-    "biome": "",
+    "stat": "Smarts",
+    "biome": "None",
     "biome_modifier": 0
   },
   {
@@ -1925,8 +1925,8 @@
     "quantity": 38,
     "percentage": "0.38%",
     "count": 6,
-    "stat": "speed",
-    "biome": "cyber district",
+    "stat": "Speed",
+    "biome": "Cyber District",
     "biome_modifier": 3
   }
 ]

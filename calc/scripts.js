@@ -184,6 +184,7 @@ async function displayMetadata(ghost) {
             const stat = traitStatData[0].stat;
             const biome = traitStatData[0].biome;
             const biome_modifier = traitStatData[0].biome_modifier;
+            const percentage = traitStatData[0].percentage;
 
             const metadataHTML = `
                 <div class="metadata-item">
@@ -191,7 +192,7 @@ async function displayMetadata(ghost) {
                         <p><strong>&#x25BC; ${prettyKey}:</strong><span>${metadataValue}</span></p>
                     </div>
                     <div class="extra-stats" style="display: none;">
-                        <p>&nbsp;&nbsp;Stat: ${stat}<br>&nbsp;&nbsp;Boost: +${count}<br>&nbsp;&nbsp;Biome: ${biome}<br>&nbsp;&nbsp;Modifier: +${biome_modifier}</p>
+                        <p>&nbsp;&nbsp;Rarity: ${percentage}<br><br>&nbsp;&nbsp;Stat: ${stat}<br>&nbsp;&nbsp;Boost: +${count}<br>&nbsp;&nbsp;Biome: ${biome}<br>&nbsp;&nbsp;Modifier: +${biome_modifier}</p>
                     </div>
                 </div>
             `;
@@ -205,7 +206,16 @@ async function displayMetadata(ghost) {
                 metadataRightHTML += metadataHTML;
             }
         } else {
-            const metadataHTML = `<p><strong>&nbsp;&nbsp;${prettyKey}:</strong><span>${metadataValue}</span></p>`;
+            const metadataHTML = `
+                <div class="metadata-item">
+                    <div class="metadata-text ${metadataValue !== 'N/A' && validNames.includes(metadataValue) ? 'has-extra-stats' : ''}" onclick="toggleAccordion(this)">
+                        <p><strong>&#x25BC; ${prettyKey}:</strong><span>${metadataValue}</span></p>
+                    </div>
+                    <div class="extra-stats" style="display: none;">
+                        <p>&nbsp;&nbsp;Rarity: ${percentage}<br>
+                    </div>
+                </div>
+            `;
 
             if (metadataKeys.indexOf(key) < 5) {
                 metadataLeftHTML += metadataHTML;
