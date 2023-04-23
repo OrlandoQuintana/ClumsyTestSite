@@ -190,7 +190,7 @@ async function displayMetadata(ghost) {
                     <p><strong>${prettyKey}:</strong><span>${metadataValue}</span></p>
                     <button class="expand-button" onclick="toggleAccordion(this)">▼</button>
                     <div class="extra-stats" style="display: none;">
-                        <p>Count: ${count}<br>Stat: ${stat}<br>Biome: ${biome}<br>Biome Modifier: ${biome_modifier}</p>
+                    <p>Stat: ${stat}<br>Boost: ${count}<br>Biome: ${biome}<br>Modifier: ${biome_modifier}</p>
                     </div>
                 </div>
             `;

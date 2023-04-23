@@ -313,7 +313,19 @@ button:hover {
 
 .metadata-item {
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.expand-button {
+    cursor: pointer;
+    margin-left: 5px;
+    background: none;
+    border: none;
+    font-size: 1rem;
+}
+
 
 .arrow {
     cursor: pointer;
