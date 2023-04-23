@@ -187,13 +187,15 @@ async function displayMetadata(ghost) {
 
             const metadataHTML = `
                 <div class="metadata-item">
-                    <p><strong>${prettyKey}:</strong><span>${metadataValue}</span></p>
-                    <button class="expand-button" onclick="toggleAccordion(this)">▼</button>
+                    <div class="metadata-text" onclick="toggleAccordion(this)">
+                        <p><strong>${prettyKey}:</strong><span>${metadataValue}</span></p>
+                    </div>
                     <div class="extra-stats" style="display: none;">
                         <p>Count: ${count}<br>Stat: ${stat}<br>Biome: ${biome}<br>Biome Modifier: ${biome_modifier}</p>
                     </div>
                 </div>
             `;
+
 
 
 
@@ -223,11 +225,11 @@ async function displayMetadata(ghost) {
     metadataRight.innerHTML = metadataRightHTML;
 }
 
-function toggleAccordion(button) {
-    const extraStats = button.nextElementSibling;
+function toggleAccordion(element) {
+    const extraStats = element.nextElementSibling;
     extraStats.style.display = extraStats.style.display === 'none' ? 'block' : 'none';
-    button.innerHTML = button.innerHTML === '▼' ? '▲' : '▼';
 }
+
 
 
 
