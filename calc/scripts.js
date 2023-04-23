@@ -205,7 +205,7 @@ async function displayMetadata(ghost) {
                 metadataRightHTML += metadataHTML;
             }
         } else {
-            const metadataHTML = `<p><strong>- ${prettyKey}:</strong><span>${metadataValue}</span></p>`;
+            const metadataHTML = `<p><strong>  ${prettyKey}:</strong><span>${metadataValue}</span></p>`;
 
             if (metadataKeys.indexOf(key) < 5) {
                 metadataLeftHTML += metadataHTML;
