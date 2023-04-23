@@ -145,7 +145,6 @@ async function fetchTraitStatsDataByName(name) {
     return data;
 }
 
-
 async function displayMetadata(ghost) {
     const currentGhostId = ghost.id;
     const response = await fetch(`https://protected-everglades-83276.herokuapp.com/api/ghost-metadata/${currentGhostId}`);
@@ -168,6 +167,7 @@ async function displayMetadata(ghost) {
     const validNames = [
         'ADA bag', 'Planet', 'Cake', 'Frustrated emote', 'Dot emote', 'Heart emote', 'Skull emote', 'Pixie', 'Star expression', 'Stars', 'RGB', 'Spoopy wings', 'Dark wings', 'Angelic wings', 'Jetpack', 'Longsword', 'Pickaxe', 'Elf ears', 'Angel wings', 'Devil tail', 'Battle axe', 'Tiny wings', 'Fluffy wings', 'Butterfly wings', 'Scythe', 'Fairy wings', 'Bat wings', 'Demon wings', 'Bored', 'Bee', 'Rekt', 'Sleepy', 'Tired', 'Evil', 'Normal', 'Happy', 'Not looking', 'Squint', 'Lashy', 'Awake', 'Cute', 'Angry', 'Zombie', 'Winkyface', 'Happy squint', 'Blank', 'Content', 'Shut', 'Triumph', 'Calm', 'Baby', 'Creepy', 'Droid', 'Pinpoint', 'Woozy', 'Love', 'Cyclops', 'Lightning bolt tattoo', 'Shield', 'Gas mask', 'ADA necklace', 'Eye scar', 'Bubble gum', 'Bullet holes', 'Gas mask graffiti', 'ADA tattoo', 'Side pistol', 'Clown blush', 'Long shield', 'Tears', 'Sweat', 'Party blower', 'Shield sunglasses', 'AR goggles', 'Eye patch', 'Stylish glasses', 'Monocle', 'Nerdy glasses', 'Reading glasses', 'Sunglasses', 'Ghost pods', 'Hot glasses', 'Heart glasses', 'Medical eye patch', 'Snorkel', 'Monk blindfold', 'Gamepad', 'Ghost on string', 'Rifle', 'Shotgun', 'Barbell', 'Guitar', 'Hockey stick', 'Knife', 'Shuriken', 'Scimitar', 'Moon wand', 'Pencil', 'Tennis racket', 'Wrench', 'Shovel', 'Broomstick', 'Hammer', 'Crowbar', 'Fishing rod', 'Magic wand', 'Piercing', 'Black pirate snapback', 'Star antennas', 'Deadpxlz hat', 'Rubber ducky', 'White ADA snapback', 'Pigtails', 'Halo', 'Cute cap', 'Chef hat', 'Crown', 'Mohawk', 'Frog friend', 'Super hair', 'Bomb', 'Bat friend', 'Monkey friend', 'Octopus friend', 'Cherry on top', 'Party hat', 'Crabby friend', 'Cat friend', 'Witch hat', 'Devil horns', 'Bird friend', 'Tennis ball', 'Static', 'Cowboy hat', 'Fast food hat', "Nurse's cap", 'Sailor hat', 'ADA hat', 'Rasta dreads', 'Toque', 'Rabbit ears', 'Frankenhair', 'Santa hat', 'Mushroom hat', 'Top hat', 'Princess wizard', 'Cowgirl hat', 'Cardano logo', 'Parrot friend', 'Headphones', 'Cat ears', 'Space helmet', 'Hot head', 'Shooting star', 'Pirate hat', 'Sombrero', 'Unicorn hat', 'Plaid hat', 'Headset', 'Army helmet', 'Circlet', 'Bunny ears', 'Explorer', 'Cyborg', 'Heart antenna', 'Rainbow', 'Axe', 'Reaper hoodie', 'Viking helmet', 'Skull t-shirt', 'Mummy', 'Shirt and tie', 'Tux shirt and tie', 'Bandaid', 'Lifeguard t-shirt', 'Aikido gi', 'Overalls', 'T-shirt', 'Bandaid confetti cute', 'Bandaid confetti skull', 'Spoopy skeleton', 'Stache', 'Zombie', 'Ninjutsu gi', 'Jester', 'Spliff', 'Medical mask', 'Floaty flamingo', 'Bloody', 'Robot', 'Vampire suit', "Nurse's pack", 'Bat mask'];
 
+
     let metadataLeftHTML = '';
     let metadataCenterHTML = '';
     let metadataRightHTML = '';
@@ -178,17 +178,22 @@ async function displayMetadata(ghost) {
 
         if (metadataValue !== 'N/A' && validNames.includes(metadataValue)) {
             const traitStatData = await fetchTraitStatsDataByName(metadataValue);
-            console.log(traitStatData);
+
             // Use traitStatData to extract count, stat, biome, and biome_modifier values
             const count = traitStatData[0].count;
             const stat = traitStatData[0].stat;
             const biome = traitStatData[0].biome;
             const biome_modifier = traitStatData[0].biome_modifier;
 
-            const metadataHTML = `<p><strong>${prettyKey}:</strong><span>${metadataValue}</span></p>
-                      <p>Count: ${count}<br>Stat: ${stat}<br>Biome: ${biome}<br>Biome Modifier: ${biome_modifier}</p>`;
-
-
+            const metadataHTML = `
+                <div class="metadata-item">
+                    <p><strong>${prettyKey}:</strong><span>${metadataValue}</span></p>
+                    <button class="expand-button" onclick="toggleAccordion(this)">▼</button>
+                    <div class="extra-stats" style="display: none;">
+                        <p>Count: ${count}<br>Stat: ${stat}<br>Biome: ${biome}<br>Biome Modifier: ${biome_modifier}</p>
+                    </div>
+                </div>
+            `;
 
             if (metadataKeys.indexOf(key) < 5) {
                 metadataLeftHTML += metadataHTML;
@@ -215,6 +220,11 @@ async function displayMetadata(ghost) {
     metadataRight.innerHTML = metadataRightHTML;
 }
 
+function toggleAccordion(button) {
+    const extraStats = button.nextElementSibling;
+    extraStats.style.display = extraStats.style.display === 'none' ? 'block' : 'none';
+    button.innerHTML = button.innerHTML === '▼' ? '▲' : '▼';
+}
 
 
 async function openHTML() {
