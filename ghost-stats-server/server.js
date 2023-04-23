@@ -71,7 +71,7 @@ CREATE TABLE IF NOT EXISTS ghost_metadata (
 );`;
 
 const createTraitStatsTableQuery = `
-CREATE TABLE IF NOT EXISTS new_json_data (
+CREATE TABLE IF NOT EXISTS traitStats (
   id INTEGER PRIMARY KEY,
   type TEXT,
   name TEXT,
@@ -181,7 +181,7 @@ db.serialize(() => {
       console.log("Trait Stats table created");
       traitStats.forEach((item) => {
         const insertTraitStatsQuery = `
-        INSERT INTO new_json_data (
+        INSERT INTO traitStats (
           type, name, quantity, percentage, count, stat, biome, biome_modifier
         ) VALUES (?, ?, ?, ?, ?, ?, ?, ?);
         `;
@@ -266,7 +266,7 @@ db.serialize(() => {
 });
 
 app.get('/api/trait-stats', (req, res) => {
-  const query = 'SELECT * FROM new_json_data;';
+  const query = 'SELECT * FROM traitStats;';
   db.all(query, [], (err, rows) => {
     if (err) {
       console.error(err.message);
@@ -279,7 +279,7 @@ app.get('/api/trait-stats', (req, res) => {
 
 app.get('/api/trait-stats/name/:name', (req, res) => {
   const name = req.params.name;
-  const query = 'SELECT * FROM new_json_data WHERE name = ?;';
+  const query = 'SELECT * FROM traitStats WHERE name = ?;';
   db.all(query, [name], (err, rows) => {
     if (err) {
       console.error(err.message);
