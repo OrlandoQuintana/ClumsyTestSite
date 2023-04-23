@@ -340,9 +340,21 @@ button:hover {
     width: 90%;
 }
 
+@keyframes colorFade {
+
+    0%,
+    100% {
+        color: #7850FF;
+    }
+
+    50% {
+        color: white;
+    }
+}
+
 .has-extra-stats {
     font-weight: bold;
     color: #7850FF;
-    /* Change this to your desired font color */
     cursor: pointer;
+    animation: colorFade 2s infinite;
 }
