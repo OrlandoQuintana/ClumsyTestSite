@@ -197,6 +197,8 @@ async function displayMetadata(ghost) {
             `;
 
 
+
+
             if (metadataKeys.indexOf(key) < 5) {
                 metadataLeftHTML += metadataHTML;
             } else if (metadataKeys.indexOf(key) < 10) {
@@ -223,7 +225,7 @@ async function displayMetadata(ghost) {
 }
 
 function toggleAccordion(element) {
-    const extraStats = element.parentElement.querySelector('.extra-stats');
+    const extraStats = element.nextElementSibling;
     extraStats.style.display = extraStats.style.display === 'none' ? 'block' : 'none';
 }
 
