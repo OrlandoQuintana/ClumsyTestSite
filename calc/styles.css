@@ -342,7 +342,5 @@ button:hover {
 
 
 .has-extra-stats {
-    font-weight: bold;
-    color: #7850FF;
     cursor: pointer;
 }
