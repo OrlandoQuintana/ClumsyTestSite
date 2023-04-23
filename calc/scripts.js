@@ -186,13 +186,14 @@ async function displayMetadata(ghost) {
             const biome_modifier = traitStatData[0].biome_modifier;
 
             const metadataHTML = `
-                <div class="metadata-item">
-                    <p onclick="toggleAccordion(this)"><strong>${prettyKey}:</strong><span>${metadataValue}</span></p>
+                <div class="metadata-item" onclick="toggleAccordion(this)">
+                    <p><strong>${prettyKey}:</strong><span>${metadataValue}</span></p>
                     <div class="extra-stats" style="display: none;">
-                        <p>Stat: ${stat}<br>Boost: ${count}<br>Biome: ${biome}<br>Modifier: ${biome_modifier}</p>
+                        <p>Count: ${count}<br>Stat: ${stat}<br>Biome: ${biome}<br>Biome Modifier: ${biome_modifier}</p>
                     </div>
                 </div>
             `;
+
 
 
             if (metadataKeys.indexOf(key) < 5) {
@@ -221,9 +222,10 @@ async function displayMetadata(ghost) {
 }
 
 function toggleAccordion(element) {
-    const extraStats = element.nextElementSibling;
+    const extraStats = element.querySelector('.extra-stats');
     extraStats.style.display = extraStats.style.display === 'none' ? 'block' : 'none';
 }
+
 
 
 
