@@ -206,6 +206,8 @@ async function displayMetadata(ghost) {
                 metadataRightHTML += metadataHTML;
             }
         } else {
+            const percentage = traitStatData[0].percentage;
+
             const metadataHTML = `
                 <div class="metadata-item">
                     <div class="metadata-text ${metadataValue !== 'N/A' && validNames.includes(metadataValue) ? 'has-extra-stats' : ''}" onclick="toggleAccordion(this)">
