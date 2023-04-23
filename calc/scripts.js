@@ -188,7 +188,7 @@ async function displayMetadata(ghost) {
             const metadataHTML = `
                 <div class="metadata-item">
                     <div class="metadata-text ${metadataValue !== 'N/A' && validNames.includes(metadataValue) ? 'has-extra-stats' : ''}" onclick="toggleAccordion(this)">
-                        <p><strong>${prettyKey}:</strong><span>${metadataValue}</span></p>
+                        <p><strong>&#x25BC; ${prettyKey}:</strong><span>${metadataValue}</span></p>
                     </div>
                     <div class="extra-stats" style="display: none;">
                         <p>Stat: ${stat}<br>Boost: ${count}<br>Biome: ${biome}<br>Modifier: ${biome_modifier}</p>
