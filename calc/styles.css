@@ -313,9 +313,6 @@ button:hover {
 
 .metadata-item {
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .expand-button {
