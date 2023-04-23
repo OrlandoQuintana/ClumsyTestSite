@@ -206,6 +206,8 @@ async function displayMetadata(ghost) {
                 metadataRightHTML += metadataHTML;
             }
         } else {
+            const traitStatData = await fetchTraitStatsDataByName(metadataValue);
+
             const percentage = traitStatData[0].percentage;
 
             const metadataHTML = `
