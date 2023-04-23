@@ -356,5 +356,5 @@ button:hover {
     font-weight: bold;
     color: #7850FF;
     cursor: pointer;
-    animation: colorFade 2s infinite;
+    animation: colorFade 3s infinite;
 }
