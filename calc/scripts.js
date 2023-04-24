@@ -37,7 +37,6 @@ function prettifyKey(key) {
         'twilight_forest_modifier': 'Twilight Forest',
         'cyber_district_modifier': 'Cyber District',
         'alien_modifier': 'Alien'
-        // Add more mappings here as needed
     };
 
     return keyMap[key] || key;
