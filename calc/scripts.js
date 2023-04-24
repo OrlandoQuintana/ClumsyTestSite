@@ -58,7 +58,6 @@ function prettifyMetadataKey(key) {
         'outfit': 'Outfit',
         'special': 'Special',
         'varatts': 'Attributes'
-        // Add more mappings here as needed
     };
 
     return keyMap[key] || key;
