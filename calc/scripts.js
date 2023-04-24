@@ -19,7 +19,6 @@ async function fetchSVG(ghostID) {
     return obj;
 }
 
-
 function prettifyKey(key) {
     const keyMap = {
         'name': 'Name',
@@ -81,8 +80,6 @@ const keyImages = {
     'Cyber District': 'cyber-district.png',
     'Alien': 'alien.png',
 };
-
-
 
 function displayGhost(ghost, svg) {
     const ghostSvgContainer = document.getElementById('ghost-svg-container');
@@ -184,6 +181,7 @@ async function displayMetadata(ghost) {
             const stat = traitStatData[0].stat;
             const biome = traitStatData[0].biome;
             const biome_modifier = traitStatData[0].biome_modifier;
+            const percentage = traitStatData[0].percentage;
 
             const metadataHTML = `
                 <div class="metadata-item">
@@ -191,7 +189,7 @@ async function displayMetadata(ghost) {
                         <p><strong>&#x25BC; ${prettyKey}:</strong><span>${metadataValue}</span></p>
                     </div>
                     <div class="extra-stats" style="display: none;">
-                        <p>&nbsp;&nbsp;Stat: ${stat}<br>&nbsp;&nbsp;Boost: +${count}<br>&nbsp;&nbsp;Biome: ${biome}<br>&nbsp;&nbsp;Modifier: +${biome_modifier}</p>
+                        <p>&nbsp;&nbsp;Rarity: ${percentage}<br><br>&nbsp;&nbsp;Stat: ${stat}<br>&nbsp;&nbsp;Boost: +${count}<br>&nbsp;&nbsp;Biome: ${biome}<br>&nbsp;&nbsp;Modifier: +${biome_modifier}</p>
                     </div>
                 </div>
             `;
@@ -227,8 +225,6 @@ function toggleAccordion(element) {
     extraStats.style.display = extraStats.style.display === 'none' ? 'block' : 'none';
 }
 
-
-
 async function openHTML() {
     const currentGhostId = loadedGhostID; /* Ghost ID of the currently displayed ghost */
     const ghostMetadata = await fetchGhostMetadata(currentGhostId);
@@ -243,8 +239,6 @@ async function openHTML() {
         }
     }
 }
-
-
 
 function openSVG() {
     if (loadedGhostID !== null) {
@@ -263,9 +257,6 @@ function openWidePNG() {
         window.open(`/images/png/cg${loadedGhostID}-wide.png`, '_blank');
     }
 }
-
-
-
 
 async function onSearchButtonClick() {
     const searchInput = document.getElementById('search-input');
@@ -286,7 +277,6 @@ async function loadRandomGhost() {
     const svgText = await fetchSVG(ghost['id']);
     displayGhost(ghost, svgText);
 }
-
 
 loadRandomGhost();
 

@@ -846,8 +846,8 @@
     "percentage": "1.94%",
     "count": 3,
     "stat": "Stamina",
-    "biome": "ocean",
-    "biome_modifier": 1
+    "biome": "None",
+    "biome_modifier": 0
   },
   {
     "type": "glasses",
@@ -1076,8 +1076,8 @@
     "percentage": "1.42%",
     "count": 1,
     "stat": "Stamina",
-    "biome": "ocean",
-    "biome_modifier": 1
+    "biome": "None",
+    "biome_modifier": 0
   },
   {
     "type": "hat",
@@ -1236,8 +1236,8 @@
     "percentage": "1.15%",
     "count": 2,
     "stat": "Smarts",
-    "biome": "ocean",
-    "biome_modifier": 1
+    "biome": "None",
+    "biome_modifier": 0
   },
   {
     "type": "hat",
@@ -1266,8 +1266,8 @@
     "percentage": "1.10%",
     "count": 2,
     "stat": "Smarts",
-    "biome": "ocean",
-    "biome_modifier": 1
+    "biome": "None",
+    "biome_modifier": 0
   },
   {
     "type": "hat",
@@ -1366,8 +1366,8 @@
     "percentage": "1.02%",
     "count": 2,
     "stat": "Stamina",
-    "biome": "ocean",
-    "biome_modifier": 1
+    "biome": "None",
+    "biome_modifier": 0
   },
   {
     "type": "hat",
@@ -1486,8 +1486,8 @@
     "percentage": "0.87%",
     "count": 4,
     "stat": "Smarts",
-    "biome": "ocean",
-    "biome_modifier": 2
+    "biome": "None",
+    "biome_modifier": 0
   },
   {
     "type": "hat",
@@ -1546,8 +1546,8 @@
     "percentage": "0.81%",
     "count": 4,
     "stat": "Luck",
-    "biome": "ocean",
-    "biome_modifier": 2
+    "biome": "None",
+    "biome_modifier": 0
   },
   {
     "type": "hat",
@@ -1746,8 +1746,8 @@
     "percentage": "2.92%",
     "count": 1,
     "stat": "Luck",
-    "biome": "ocean",
-    "biome_modifier": 1
+    "biome": "None",
+    "biome_modifier": 0
   },
   {
     "type": "outfit",
@@ -1876,8 +1876,8 @@
     "percentage": "1.67%",
     "count": 3,
     "stat": "Luck",
-    "biome": "ocean",
-    "biome_modifier": 2
+    "biome": "None",
+    "biome_modifier": 0
   },
   {
     "type": "outfit",
