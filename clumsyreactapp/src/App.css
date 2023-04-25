@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.section {
+  width: 33.33%;
+  height: 100vh;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  padding: 20px;
+}
+
+.section h1 {
+  font-size: 36px;
+}
+
+.section p {
+  font-size: 24px;
+}
