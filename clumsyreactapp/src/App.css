@@ -1,16 +1,18 @@
 body {
-  background-color: rgb(244, 28, 28);
+  background-color: black;
   color: white;
 }
 
 .section {
-  width: 33.33%;
+  width: calc(33.33% - 20px);
   height: 60vh;
   display: inline-block;
   vertical-align: top;
   text-align: center;
   padding: 10px;
+  box-sizing: border-box;
 }
+
 
 .section h1 {
   font-size: 30px;
