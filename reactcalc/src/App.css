@@ -1,0 +1,346 @@
+:root {
+  --background-color: #1C1A24;
+  --text-color: #f4f4f4;
+  --border-color: #7850FF;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+@font-face {
+  font-family: 'ClumsyPixel';
+  src: url('ClumsyPixelv2.otf') format('opentype');
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 500;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  padding-top: 2px;
+  text-align: center;
+}
+
+h1 {
+  font-family: ClumsyPixel;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+input[type="number"] {
+  font-size: 18px;
+  padding: 10px;
+  width: 300px;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  background-color: var(--text-color);
+  color: var(--background-color);
+}
+
+button {
+  font-size: 18px;
+  font-family: ClumsyPixel;
+  font-weight: 500;
+  padding: 10px 20px;
+  background-color: #7850FF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #7850FF;
+}
+
+#stats-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  border-left: 2px solid var(--border-color);
+  border-right: 2px solid var(--border-color);
+  border-top: 2px solid var(--border-color);
+  border-bottom: 2px solid var(--border-color);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#ghost-container {
+  width: 33.33%;
+  text-align: center;
+  border-left: 2px solid var(--border-color);
+  border-right: 2px solid var(--border-color);
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.stats-column {
+  font-size: 22px;
+  width: 33.33%;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.stats-column p {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  vertical-align: middle;
+  padding-bottom: 6px;
+  margin-bottom: 6px;
+  padding-top: 6px;
+  margin-top: 6px;
+}
+
+.stats-column p:last-child {
+  margin-bottom: 0;
+}
+
+.stats-column p span {
+  font-weight: normal;
+  text-align: right;
+  align-self: center;
+  vertical-align: middle;
+  justify-content: space-between;
+}
+
+.stats-column img {
+  width: 28px;
+  /* Adjust the width */
+  height: 28px;
+  /* Adjust the height */
+  margin-right: 10px;
+  /* Adjust the margin-right if needed */
+  align-self: center;
+  vertical-align: middle;
+  justify-content: space-between;
+}
+
+.stats-column p::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -6px;
+  /* Adjust this value to move the line up or down */
+  height: 1px;
+  background-color: var(--border-color);
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  #stats-container {
+    flex-direction: column;
+  }
+
+  .stats-column,
+  #ghost-container {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  #ghost-container {
+    border-left: none;
+    border-right: none;
+    border-top: 0px solid var(--border-color);
+    border-bottom: 0px solid var(--border-color);
+    order: 1;
+  }
+
+  #stats-left {
+    order: 2;
+    border-top: 2px solid var(--border-color);
+    border-bottom: 2px solid var(--border-color);
+  }
+
+  #stats-right {
+    order: 3;
+  }
+}
+
+#ghost-container svg {
+  user-select: none;
+}
+
+#button-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin-top: 15px;
+  width: 100%;
+}
+
+#button-container button {
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+
+
+
+.ghost-button {
+  font-size: 18px;
+  font-family: ClumsyPixel;
+  font-weight: 500;
+  padding: 10px 20px;
+  background-color: #7850FF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.ghost-button:hover {
+  background-color: #7850FF;
+}
+
+
+.download-buttons {
+  display: grid;
+  font-family: ClumsyPixel;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+#ghost-svg-container {
+  position: relative;
+  z-index: 0;
+}
+
+#ghost-svg-container {
+  width: 100%;
+}
+
+#metadata-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 35px;
+  border: 2px solid var(--border-color);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.metadata-column {
+  font-size: 22px;
+  width: 33.33%;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.metadata-column p {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  vertical-align: middle;
+  padding-bottom: 6px;
+  margin-bottom: 6px;
+  padding-top: 6px;
+  margin-top: 6px;
+}
+
+.metadata-column p:last-child {
+  margin-bottom: 0;
+}
+
+.metadata-column p span {
+  font-weight: normal;
+  text-align: right;
+  align-self: center;
+  vertical-align: middle;
+  justify-content: space-between;
+}
+
+.metadata-column p::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -6px;
+  height: 1px;
+  background-color: var(--border-color);
+}
+
+@media screen and (max-width: 768px) {
+  #metadata-container {
+    flex-direction: column;
+  }
+
+  .metadata-column {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  #metadata-left {
+    order: 1;
+    border-bottom: 2px solid var(--border-color);
+  }
+
+  #metadata-center {
+    order: 2;
+    border-bottom: 2px solid var(--border-color);
+  }
+
+  #metadata-right {
+    order: 3;
+  }
+}
+
+.metadata-item {
+  position: relative;
+}
+
+.expand-button {
+  cursor: pointer;
+  margin-left: 5px;
+  background: none;
+  border: none;
+  font-size: 1rem;
+}
+
+
+.arrow {
+  cursor: pointer;
+  display: inline;
+  margin-left: 5px;
+}
+
+.metadata-details {
+  display: none;
+  background-color: #f9f9f9;
+  padding: 5px;
+  border: 1px solid #ddd;
+  position: absolute;
+  z-index: 1;
+  width: 90%;
+}
+
+
+.has-extra-stats {
+  cursor: pointer;
+}
