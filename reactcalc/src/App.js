@@ -11,13 +11,14 @@ async function fetchSingleGhost(ghostID) {
 }
 
 async function fetchSVG(ghostID) {
-  const url = `ghostsvgs/cg${ghostID}.svg`;
+  const url = `/reactcalc/ghostsvgs/cg${ghostID}.svg`;
   const obj = document.createElement('object');
   obj.data = url;
   obj.type = "image/svg+xml";
   obj.classList.add('ghost-svg');
   return obj;
 }
+
 
 
 function App() {
