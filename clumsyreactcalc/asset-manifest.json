@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/clumsyreactcalc/static/css/main.1d10c50e.css",
-    "main.js": "/clumsyreactcalc/static/js/main.31743299.js",
+    "main.css": "/clumsyreactcalc/static/css/main.cc15044a.css",
+    "main.js": "/clumsyreactcalc/static/js/main.692593d8.js",
     "static/js/787.37b86093.chunk.js": "/clumsyreactcalc/static/js/787.37b86093.chunk.js",
     "index.html": "/clumsyreactcalc/index.html",
-    "main.1d10c50e.css.map": "/clumsyreactcalc/static/css/main.1d10c50e.css.map",
-    "main.31743299.js.map": "/clumsyreactcalc/static/js/main.31743299.js.map",
+    "main.cc15044a.css.map": "/clumsyreactcalc/static/css/main.cc15044a.css.map",
+    "main.692593d8.js.map": "/clumsyreactcalc/static/js/main.692593d8.js.map",
     "787.37b86093.chunk.js.map": "/clumsyreactcalc/static/js/787.37b86093.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d10c50e.css",
-    "static/js/main.31743299.js"
+    "static/css/main.cc15044a.css",
+    "static/js/main.692593d8.js"
   ]
 }
