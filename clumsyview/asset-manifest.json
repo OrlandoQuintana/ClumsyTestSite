@@ -1,15 +1,15 @@
 {
   "main.css": "/clumsyview/static/css/main.8ae1b75a.chunk.css",
-  "main.js": "/clumsyview/static/js/main.64915c2f.chunk.js",
-  "main.js.map": "/clumsyview/static/js/main.64915c2f.chunk.js.map",
+  "main.js": "/clumsyview/static/js/main.0f7d131a.chunk.js",
+  "main.js.map": "/clumsyview/static/js/main.0f7d131a.chunk.js.map",
   "runtime~main.js": "/clumsyview/static/js/runtime~main.0a0734b7.js",
   "runtime~main.js.map": "/clumsyview/static/js/runtime~main.0a0734b7.js.map",
-  "static/js/2.27629ede.chunk.js": "/clumsyview/static/js/2.27629ede.chunk.js",
-  "static/js/2.27629ede.chunk.js.map": "/clumsyview/static/js/2.27629ede.chunk.js.map",
+  "static/js/2.4eb3d99a.chunk.js": "/clumsyview/static/js/2.4eb3d99a.chunk.js",
+  "static/js/2.4eb3d99a.chunk.js.map": "/clumsyview/static/js/2.4eb3d99a.chunk.js.map",
   "static/js/3.a772fac8.chunk.js": "/clumsyview/static/js/3.a772fac8.chunk.js",
   "static/js/3.a772fac8.chunk.js.map": "/clumsyview/static/js/3.a772fac8.chunk.js.map",
   "index.html": "/clumsyview/index.html",
-  "precache-manifest.f5986ecada801ff95226627459e12af9.js": "/clumsyview/precache-manifest.f5986ecada801ff95226627459e12af9.js",
+  "precache-manifest.108de5e2510a78bf9b212482a688e644.js": "/clumsyview/precache-manifest.108de5e2510a78bf9b212482a688e644.js",
   "service-worker.js": "/clumsyview/service-worker.js",
   "static/css/main.8ae1b75a.chunk.css.map": "/clumsyview/static/css/main.8ae1b75a.chunk.css.map"
 }
