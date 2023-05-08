@@ -1,15 +1,15 @@
 {
-  "main.css": "/static/css/main.d1377fa7.chunk.css",
-  "main.js": "/static/js/main.2a535c1d.chunk.js",
-  "main.js.map": "/static/js/main.2a535c1d.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.bf02eaaa.js",
-  "runtime~main.js.map": "/static/js/runtime~main.bf02eaaa.js.map",
-  "static/js/2.3f92a190.chunk.js": "/static/js/2.3f92a190.chunk.js",
-  "static/js/2.3f92a190.chunk.js.map": "/static/js/2.3f92a190.chunk.js.map",
-  "static/js/3.a772fac8.chunk.js": "/static/js/3.a772fac8.chunk.js",
-  "static/js/3.a772fac8.chunk.js.map": "/static/js/3.a772fac8.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.70ca305422d11290e008eca27dd57058.js": "/precache-manifest.70ca305422d11290e008eca27dd57058.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/main.d1377fa7.chunk.css.map": "/static/css/main.d1377fa7.chunk.css.map"
+  "main.css": "/clumsyview/static/css/main.d1377fa7.chunk.css",
+  "main.js": "/clumsyview/static/js/main.6ea9095d.chunk.js",
+  "main.js.map": "/clumsyview/static/js/main.6ea9095d.chunk.js.map",
+  "runtime~main.js": "/clumsyview/static/js/runtime~main.0a0734b7.js",
+  "runtime~main.js.map": "/clumsyview/static/js/runtime~main.0a0734b7.js.map",
+  "static/js/2.3f92a190.chunk.js": "/clumsyview/static/js/2.3f92a190.chunk.js",
+  "static/js/2.3f92a190.chunk.js.map": "/clumsyview/static/js/2.3f92a190.chunk.js.map",
+  "static/js/3.a772fac8.chunk.js": "/clumsyview/static/js/3.a772fac8.chunk.js",
+  "static/js/3.a772fac8.chunk.js.map": "/clumsyview/static/js/3.a772fac8.chunk.js.map",
+  "index.html": "/clumsyview/index.html",
+  "precache-manifest.071e04311487fcdcb399f7979585d17d.js": "/clumsyview/precache-manifest.071e04311487fcdcb399f7979585d17d.js",
+  "service-worker.js": "/clumsyview/service-worker.js",
+  "static/css/main.d1377fa7.chunk.css.map": "/clumsyview/static/css/main.d1377fa7.chunk.css.map"
 }
