@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/clumsyview/precache-manifest.d43653d7dca46ad0f3de3c5f64a65a41.js"
+  "/clumsyview/precache-manifest.e2b8550aa1477e1bee71658a6619562f.js"
 );
 
 workbox.clientsClaim();
