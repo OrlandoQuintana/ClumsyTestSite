@@ -1,15 +1,17 @@
 {
-  "main.css": "/clumsyview/static/css/main.b9f6c029.chunk.css",
-  "main.js": "/clumsyview/static/js/main.b38f5706.chunk.js",
-  "main.js.map": "/clumsyview/static/js/main.b38f5706.chunk.js.map",
-  "runtime~main.js": "/clumsyview/static/js/runtime~main.0a0734b7.js",
-  "runtime~main.js.map": "/clumsyview/static/js/runtime~main.0a0734b7.js.map",
-  "static/js/2.c8cbf6ff.chunk.js": "/clumsyview/static/js/2.c8cbf6ff.chunk.js",
-  "static/js/2.c8cbf6ff.chunk.js.map": "/clumsyview/static/js/2.c8cbf6ff.chunk.js.map",
-  "static/js/3.a772fac8.chunk.js": "/clumsyview/static/js/3.a772fac8.chunk.js",
-  "static/js/3.a772fac8.chunk.js.map": "/clumsyview/static/js/3.a772fac8.chunk.js.map",
+  "main.css": "/clumsyview/static/css/main.756b98a5.chunk.css",
+  "main.js": "/clumsyview/static/js/main.5a89385b.chunk.js",
+  "main.js.map": "/clumsyview/static/js/main.5a89385b.chunk.js.map",
+  "runtime~main.js": "/clumsyview/static/js/runtime~main.61591813.js",
+  "runtime~main.js.map": "/clumsyview/static/js/runtime~main.61591813.js.map",
+  "static/css/2.c3e049f4.chunk.css": "/clumsyview/static/css/2.c3e049f4.chunk.css",
+  "static/js/2.94135b97.chunk.js": "/clumsyview/static/js/2.94135b97.chunk.js",
+  "static/js/2.94135b97.chunk.js.map": "/clumsyview/static/js/2.94135b97.chunk.js.map",
+  "static/js/3.3bc8c1cd.chunk.js": "/clumsyview/static/js/3.3bc8c1cd.chunk.js",
+  "static/js/3.3bc8c1cd.chunk.js.map": "/clumsyview/static/js/3.3bc8c1cd.chunk.js.map",
   "index.html": "/clumsyview/index.html",
-  "precache-manifest.ecc0c9ec50ada3b47ecf81d468df8fdc.js": "/clumsyview/precache-manifest.ecc0c9ec50ada3b47ecf81d468df8fdc.js",
+  "precache-manifest.12ecf1d8eae73eaed24c45fcdd90a0a1.js": "/clumsyview/precache-manifest.12ecf1d8eae73eaed24c45fcdd90a0a1.js",
   "service-worker.js": "/clumsyview/service-worker.js",
-  "static/css/main.b9f6c029.chunk.css.map": "/clumsyview/static/css/main.b9f6c029.chunk.css.map"
+  "static/css/2.c3e049f4.chunk.css.map": "/clumsyview/static/css/2.c3e049f4.chunk.css.map",
+  "static/css/main.756b98a5.chunk.css.map": "/clumsyview/static/css/main.756b98a5.chunk.css.map"
 }
